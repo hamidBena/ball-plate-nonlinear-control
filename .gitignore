@@ -34,3 +34,11 @@
 golang ext/
 Python extensions/
 build/
+managed_components/
+sdkconfig.old
+
+# ESP-IDF and local editor/cache artifacts
+.idf_build_apps/
+.cache/
+.vscode/.ropeproject/
+.vscode/*.log
