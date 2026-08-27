@@ -1,0 +1,21 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "d:\\ESP_IDF\\v5.5.1\\esp-idf",
+  "idf.pythonInstallPath": "d:\\ESP_IDF_TOOLS\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "board/esp32c6-builtin.cfg"
+  ],
+  "idf.toolsPathWin": "d:\\ESP_IDF_TOOLS",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32c6"
+  },
+  "clangd.path": "d:\\ESP_IDF_TOOLS\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=c:\\Users\\CE PC\\Documents\\_cpp\\Embedded\\Pid module\\build"
+  ],
+  "idf.flashType": "UART",
+  "idf.currentSetup": "D:\\ESP IDF\\.espressif\\v6.0.1\\esp-idf",
+  "idf.portWin": "COM5"
+}

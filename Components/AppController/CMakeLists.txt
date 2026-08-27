@@ -1,0 +1,13 @@
+idf_component_register(
+    SRCS
+        "AppController.cpp"
+    INCLUDE_DIRS
+        "include"
+    REQUIRES
+        RGB_Controller
+        touchPanel
+        MyServo
+        CommHandler
+        IMU
+        freertos
+)

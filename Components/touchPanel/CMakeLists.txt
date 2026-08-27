@@ -1,0 +1,10 @@
+idf_component_register(
+    SRCS
+        "touchPanel.cpp"
+    INCLUDE_DIRS
+        "include"
+    REQUIRES
+        esp_driver_gpio
+        freertos
+        esp_adc
+)

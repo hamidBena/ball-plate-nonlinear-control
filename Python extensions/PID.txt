@@ -1,0 +1,1011 @@
+Setpoints: (-80.00, -50.00) | Measurements: (-6.20, -49.46) | PidX: -3.14 | PidY: -2.09
+Px: (-25.00) | Ix: (-0.00) | Dx: 23.01
+Py: (-0.11) | Iy: (-0.00) | Dy: -2.46
+Setpoints: (-80.00, -50.00) | Measurements: (-9.49, -49.15) | PidX: -4.92 | PidY: -1.53
+Px: (-25.00) | Ix: (-0.00) | Dx: 19.33
+Py: (-0.17) | Iy: (-0.00) | Dy: -1.12
+Setpoints: (-80.00, -50.00) | Measurements: (-13.91, -49.47) | PidX: -0.75 | PidY: 0.26
+Px: (-25.00) | Ix: (-0.00) | Dx: 26.03
+Py: (-0.11) | Iy: (-0.00) | Dy: 1.14
+Setpoints: (-80.00, -50.00) | Measurements: (-17.38, -48.93) | PidX: -3.46 | PidY: -1.41
+Px: (-25.00) | Ix: (-0.00) | Dx: 20.37
+Py: (-0.21) | Iy: (-0.00) | Dy: -1.92
+Setpoints: (-80.00, -50.00) | Measurements: (-21.67, -49.02) | PidX: 0.32 | PidY: -0.32
+Px: (-23.33) | Ix: (-0.00) | Dx: 25.28
+Py: (-0.20) | Iy: (-0.00) | Dy: 0.34
+Setpoints: (-80.00, -50.00) | Measurements: (-25.60, -48.26) | PidX: 1.03 | PidY: -2.23
+Px: (-21.76) | Ix: (-0.00) | Dx: 23.10
+Py: (-0.35) | Iy: (-0.00) | Dy: -2.70
+Setpoints: (-80.00, -50.00) | Measurements: (-28.96, -48.25) | PidX: -0.13 | PidY: -0.93
+Px: (-20.41) | Ix: (-0.00) | Dx: 19.79
+Py: (-0.35) | Iy: (-0.00) | Dy: -0.02
+Setpoints: (-80.00, -50.00) | Measurements: (-33.63, -47.92) | PidX: 6.20 | PidY: -1.38
+Px: (-18.55) | Ix: (-0.00) | Dx: 27.46
+Py: (-0.42) | Iy: (-0.00) | Dy: -1.16
+Setpoints: (-80.00, -50.00) | Measurements: (-37.20, -48.26) | PidX: 4.55 | PidY: 0.18
+Px: (-17.12) | Ix: (-0.00) | Dx: 20.96
+Py: (-0.35) | Iy: (-0.00) | Dy: 1.20
+Setpoints: (-80.00, -50.00) | Measurements: (-44.14, -47.44) | PidX: 12.32 | PidY: -2.35
+Px: (-14.35) | Ix: (-0.00) | Dx: 30.00
+Py: (-0.51) | Iy: (-0.00) | Dy: -2.93
+Setpoints: (-80.00, -50.00) | Measurements: (-48.96, -47.44) | PidX: 14.87 | PidY: -1.07
+Px: (-12.42) | Ix: (-0.00) | Dx: 28.38
+Py: (-0.51) | Iy: (-0.00) | Dy: 0.00
+Setpoints: (-80.00, -50.00) | Measurements: (-52.10, -47.25) | PidX: 9.59 | PidY: -1.16
+Px: (-11.16) | Ix: (-0.00) | Dx: 18.49
+Py: (-0.55) | Iy: (-0.00) | Dy: -0.65
+Setpoints: (-80.00, -50.00) | Measurements: (-55.18, -45.63) | PidX: 8.57 | PidY: -4.97
+Px: (-9.93) | Ix: (-0.00) | Dx: 18.07
+Py: (-0.87) | Iy: (-0.00) | Dy: -5.73
+Setpoints: (-80.00, -50.00) | Measurements: (-59.70, -45.33) | PidX: 15.52 | PidY: -2.87
+Px: (-8.12) | Ix: (-0.00) | Dx: 26.62
+Py: (-0.93) | Iy: (-0.00) | Dy: -1.03
+Setpoints: (-80.00, -50.00) | Measurements: (-62.94, -45.97) | PidX: 13.20 | PidY: 0.15
+Px: (-6.83) | Ix: (-0.00) | Dx: 19.03
+Py: (-0.81) | Iy: (-0.00) | Dy: 2.25
+Setpoints: (-80.00, -50.00) | Measurements: (-67.44, -45.84) | PidX: 18.99 | PidY: -0.86
+Px: (-5.02) | Ix: (-0.00) | Dx: 26.49
+Py: (-0.83) | Iy: (-0.00) | Dy: -0.46
+Setpoints: (-80.00, -50.00) | Measurements: (-70.53, -46.37) | PidX: 15.75 | PidY: 0.53
+Px: (-3.79) | Ix: (-0.00) | Dx: 18.15
+Py: (-0.73) | Iy: (-0.00) | Dy: 1.85
+Setpoints: (-80.00, -50.00) | Measurements: (-74.87, -46.71) | PidX: 21.16 | PidY: 0.55
+Px: (-2.05) | Ix: (-0.00) | Dx: 25.53
+Py: (-0.66) | Iy: (-0.00) | Dy: 1.22
+Setpoints: (-80.00, -50.00) | Measurements: (-78.12, -47.25) | PidX: 19.20 | PidY: 1.11
+Px: (-0.75) | Ix: (-0.00) | Dx: 19.12
+Py: (-0.55) | Iy: (-0.00) | Dy: 1.90
+Setpoints: (-80.00, -50.00) | Measurements: (-82.47, -48.41) | PidX: 24.38 | PidY: 2.97
+Px: (0.99) | Ix: (-0.00) | Dx: 25.61
+Py: (-0.32) | Iy: (-0.00) | Dy: 4.09
+Setpoints: (-80.00, -50.00) | Measurements: (-85.15, -49.74) | PidX: 19.79 | PidY: 4.14
+Px: (2.06) | Ix: (-0.00) | Dx: 15.76
+Py: (-0.05) | Iy: (-0.00) | Dy: 4.70
+Setpoints: (-80.00, -50.00) | Measurements: (-85.66, -49.57) | PidX: 9.60 | PidY: 0.77
+Px: (2.26) | Ix: (-0.00) | Dx: 2.98
+Py: (-0.09) | Iy: (-0.00) | Dy: -0.59
+Setpoints: (-80.00, -50.00) | Measurements: (-85.09, -49.86) | PidX: 1.99 | PidY: 0.92
+Px: (2.04) | Ix: (-0.00) | Dx: -3.31
+Py: (-0.03) | Iy: (-0.00) | Dy: 1.01
+Setpoints: (-80.00, -50.00) | Measurements: (-85.64, -47.49) | PidX: 4.40 | PidY: -5.91
+Px: (2.25) | Ix: (-0.00) | Dx: 3.19
+Py: (-0.50) | Iy: (-0.00) | Dy: -8.34
+Setpoints: (-80.00, -50.00) | Measurements: (-85.64, -47.49) | PidX: 2.90 | PidY: -2.13
+Px: (2.25) | Ix: (-0.00) | Dx: 0.00
+Py: (-0.50) | Iy: (-0.00) | Dy: 0.00
+Setpoints: (-80.00, -50.00) | Measurements: (-85.64, -47.49) | PidX: 2.45 | PidY: -0.99
+Px: (2.25) | Ix: (-0.00) | Dx: 0.00
+Py: (-0.50) | Iy: (-0.00) | Dy: 0.00
+Setpoints: (-80.00, -50.00) | Measurements: (-83.33, -49.72) | PidX: -7.84 | PidY: 5.17
+Px: (1.33) | Ix: (-0.00) | Dx: -13.58
+Py: (-0.06) | Iy: (-0.00) | Dy: 7.86
+Setpoints: (-80.00, -50.00) | Measurements: (-82.19, -50.40) | PidX: -6.40 | PidY: 3.27
+Px: (0.88) | Ix: (-0.00) | Dx: -6.67
+Py: (0.08) | Iy: (-0.00) | Dy: 2.38
+Setpoints: (-80.00, -50.00) | Measurements: (-81.74, -50.86) | PidX: -3.31 | PidY: 2.25
+Px: (0.69) | Ix: (-0.00) | Dx: -2.68
+Py: (0.17) | Iy: (-0.00) | Dy: 1.64
+Setpoints: (-80.00, -50.00) | Measurements: (-80.09, -51.22) | PidX: -7.75 | PidY: 1.73
+Px: (0.04) | Ix: (-0.00) | Dx: -9.68
+Py: (0.24) | Iy: (-0.00) | Dy: 1.26
+Setpoints: (-80.00, -50.00) | Measurements: (-78.57, -50.41) | PidX: -8.97 | PidY: -1.43
+Px: (-0.57) | Ix: (-0.00) | Dx: -8.93
+Py: (0.08) | Iy: (-0.00) | Dy: -2.87
+Setpoints: (-80.00, -50.00) | Measurements: (-76.11, -52.29) | PidX: -13.94 | PidY: 4.55
+Px: (-1.56) | Ix: (-0.00) | Dx: -14.50
+Py: (0.46) | Iy: (-0.00) | Dy: 6.66
+Setpoints: (-80.00, -50.00) | Measurements: (-76.36, -52.31) | PidX: -4.17 | PidY: 1.73
+Px: (-1.46) | Ix: (-0.00) | Dx: 1.47
+Py: (0.46) | Iy: (-0.00) | Dy: 0.06
+Setpoints: (-80.00, -50.00) | Measurements: (-74.84, -52.07) | PidX: -8.95 | PidY: 0.20
+Px: (-2.06) | Ix: (-0.00) | Dx: -8.93
+Py: (0.41) | Iy: (-0.00) | Dy: -0.86
+Setpoints: (-80.00, -50.00) | Measurements: (-73.33, -52.17) | PidX: -10.74 | PidY: 0.63
+Px: (-2.67) | Ix: (-0.00) | Dx: -8.85
+Py: (0.43) | Iy: (-0.00) | Dy: 0.38
+Setpoints: (-80.00, -50.00) | Measurements: (-73.48, -53.00) | PidX: -4.43 | PidY: 2.64
+Px: (-2.61) | Ix: (-0.00) | Dx: 0.88
+Py: (0.60) | Iy: (-0.00) | Dy: 2.91
+Setpoints: (-80.00, -50.00) | Measurements: (-72.63, -52.80) | PidX: -6.91 | PidY: 0.68
+Px: (-2.95) | Ix: (-0.00) | Dx: -5.03
+Py: (0.56) | Iy: (-0.00) | Dy: -0.72
+Setpoints: (-80.00, -50.00) | Measurements: (-72.86, -53.19) | PidX: -3.10 | PidY: 1.62
+Px: (-2.85) | Ix: (-0.00) | Dx: 1.38
+Py: (0.64) | Iy: (-0.00) | Dy: 1.39
+Setpoints: (-80.00, -50.00) | Measurements: (-72.42, -52.90) | PidX: -4.90 | PidY: 0.19
+Px: (-3.03) | Ix: (-0.00) | Dx: -2.64
+Py: (0.58) | Iy: (-0.00) | Dy: -1.01
+Setpoints: (-80.00, -50.00) | Measurements: (-72.28, -53.00) | PidX: -4.19 | PidY: 0.71
+Px: (-3.09) | Ix: (-0.00) | Dx: -0.80
+Py: (0.60) | Iy: (-0.00) | Dy: 0.34
+Setpoints: (-80.00, -50.00) | Measurements: (-72.64, -53.20) | PidX: -1.82 | PidY: 1.16
+Px: (-2.94) | Ix: (-0.00) | Dx: 2.14
+Py: (0.64) | Iy: (-0.00) | Dy: 0.72
+Setpoints: (-80.00, -50.00) | Measurements: (-72.65, -53.23) | PidX: -2.57 | PidY: 0.88
+Px: (-2.94) | Ix: (-0.00) | Dx: 0.04
+Py: (0.65) | Iy: (-0.00) | Dy: 0.11
+Setpoints: (-80.00, -50.00) | Measurements: (-71.99, -52.17) | PidX: -5.74 | PidY: -2.06
+Px: (-3.20) | Ix: (-0.00) | Dx: -3.90
+Py: (0.43) | Iy: (-0.00) | Dy: -3.75
+Setpoints: (-80.00, -50.00) | Measurements: (-72.34, -52.15) | PidX: -2.40 | PidY: -0.36
+Px: (-3.06) | Ix: (-0.00) | Dx: 2.10
+Py: (0.43) | Iy: (-0.00) | Dy: -0.06
+Setpoints: (-80.00, -50.00) | Measurements: (-73.02, -51.67) | PidX: 0.11 | PidY: -1.05
+Px: (-2.79) | Ix: (-0.00) | Dx: 3.98
+Py: (0.33) | Iy: (-0.00) | Dy: -1.69
+Setpoints: (-80.00, -50.00) | Measurements: (-74.25, -52.60) | PidX: 3.50 | PidY: 2.35
+Px: (-2.30) | Ix: (-0.00) | Dx: 7.25
+Py: (0.52) | Iy: (-0.00) | Dy: 3.29
+Setpoints: (-80.00, -50.00) | Measurements: (-75.00, -52.34) | PidX: 2.73 | PidY: 0.37
+Px: (-2.00) | Ix: (-0.00) | Dx: 4.40
+Py: (0.47) | Iy: (-0.00) | Dy: -0.95
+Setpoints: (-80.00, -50.00) | Measurements: (-75.07, -52.30) | PidX: -0.27 | PidY: 0.34
+Px: (-1.97) | Ix: (-0.00) | Dx: 0.42
+Py: (0.46) | Iy: (-0.00) | Dy: -0.13
+Setpoints: (-80.00, -50.00) | Measurements: (-75.96, -51.74) | PidX: 2.43 | PidY: -1.02
+Px: (-1.62) | Ix: (-0.00) | Dx: 5.20
+Py: (0.35) | Iy: (-0.00) | Dy: -1.96
+Setpoints: (-80.00, -50.00) | Measurements: (-76.01, -51.18) | PidX: -0.15 | PidY: -1.53
+Px: (-1.59) | Ix: (-0.00) | Dx: 0.34
+Py: (0.24) | Iy: (-0.00) | Dy: -1.98
+Setpoints: (-80.00, -50.00) | Measurements: (-75.02, -49.23) | PidX: -5.55 | PidY: -5.39
+Px: (-1.99) | Ix: (-0.00) | Dx: -5.87
+Py: (-0.15) | Iy: (-0.00) | Dy: -6.89
+Setpoints: (-80.00, -50.00) | Measurements: (-75.64, -49.29) | PidX: -0.33 | PidY: -1.57
+Px: (-1.75) | Ix: (-0.00) | Dx: 3.65
+Py: (-0.14) | Iy: (-0.00) | Dy: 0.21
+Setpoints: (-80.00, -50.00) | Measurements: (-77.11, -49.88) | PidX: 5.17 | PidY: 0.97
+Px: (-1.16) | Ix: (-0.00) | Dx: 8.68
+Py: (-0.02) | Iy: (-0.00) | Dy: 2.09
+Setpoints: (-80.00, -50.00) | Measurements: (-77.82, -49.58) | PidX: 3.87 | PidY: -0.52
+Px: (-0.87) | Ix: (-0.00) | Dx: 4.19
+Py: (-0.08) | Iy: (-0.00) | Dy: -1.07
+Setpoints: (-80.00, -50.00) | Measurements: (-77.79, -49.12) | PidX: 0.40 | PidY: -1.41
+Px: (-0.88) | Ix: (-0.00) | Dx: -0.21
+Py: (-0.18) | Iy: (-0.00) | Dy: -1.62
+Setpoints: (-80.00, -50.00) | Measurements: (-77.77, -48.90) | PidX: -0.56 | PidY: -1.11
+Px: (-0.89) | Ix: (-0.00) | Dx: -0.08
+Py: (-0.22) | Iy: (-0.00) | Dy: -0.76
+Setpoints: (-80.00, -50.00) | Measurements: (-78.04, -48.52) | PidX: 0.37 | PidY: -1.50
+Px: (-0.78) | Ix: (-0.00) | Dx: 1.55
+Py: (-0.30) | Iy: (-0.00) | Dy: -1.37
+Setpoints: (-80.00, -50.00) | Measurements: (-78.30, -48.16) | PidX: 0.72 | PidY: -1.58
+Px: (-0.68) | Ix: (-0.00) | Dx: 1.55
+Py: (-0.37) | Iy: (-0.00) | Dy: -1.24
+Setpoints: (-80.00, -50.00) | Measurements: (-78.71, -48.17) | PidX: 1.53 | PidY: -0.71
+Px: (-0.52) | Ix: (-0.00) | Dx: 2.39
+Py: (-0.37) | Iy: (-0.00) | Dy: 0.02
+Setpoints: (-80.00, -50.00) | Measurements: (-78.82, -48.06) | PidX: 0.60 | PidY: -0.75
+Px: (-0.47) | Ix: (-0.00) | Dx: 0.67
+Py: (-0.39) | Iy: (-0.00) | Dy: -0.38
+Setpoints: (-80.00, -50.00) | Measurements: (-78.91, -48.18) | PidX: 0.23 | PidY: -0.20
+Px: (-0.44) | Ix: (-0.00) | Dx: 0.50
+Py: (-0.36) | Iy: (-0.00) | Dy: 0.40
+Setpoints: (-80.00, -50.00) | Measurements: (-78.94, -48.32) | PidX: -0.11 | PidY: 0.07
+Px: (-0.43) | Ix: (-0.00) | Dx: 0.17
+Py: (-0.34) | Iy: (-0.00) | Dy: 0.53
+Setpoints: (-80.00, -50.00) | Measurements: (-79.04, -48.35) | PidX: 0.11 | PidY: -0.15
+Px: (-0.39) | Ix: (-0.00) | Dx: 0.59
+Py: (-0.33) | Iy: (-0.00) | Dy: 0.08
+Setpoints: (-80.00, -50.00) | Measurements: (-79.05, -48.29) | PidX: -0.18 | PidY: -0.43
+Px: (-0.38) | Ix: (-0.00) | Dx: 0.08
+Py: (-0.34) | Iy: (-0.00) | Dy: -0.21
+Setpoints: (-80.00, -50.00) | Measurements: (-78.94, -48.25) | PidX: -0.82 | PidY: -0.48
+Px: (-0.43) | Ix: (-0.00) | Dx: -0.67
+Py: (-0.35) | Iy: (-0.00) | Dy: -0.15
+Setpoints: (-80.00, -50.00) | Measurements: (-79.05, -48.40) | PidX: -0.04 | PidY: 0.02
+Px: (-0.38) | Ix: (-0.00) | Dx: 0.67
+Py: (-0.32) | Iy: (-0.00) | Dy: 0.55
+Setpoints: (-80.00, -50.00) | Measurements: (-78.79, -48.43) | PidX: -1.44 | PidY: -0.14
+Px: (-0.49) | Ix: (-0.00) | Dx: -1.55
+Py: (-0.31) | Iy: (-0.00) | Dy: 0.11
+Setpoints: (-80.00, -50.00) | Measurements: (-78.64, -48.44) | PidX: -1.40 | PidY: -0.23
+Px: (-0.54) | Ix: (-0.00) | Dx: -0.84
+Py: (-0.31) | Iy: (-0.00) | Dy: 0.04
+Setpoints: (-80.00, -50.00) | Measurements: (-78.33, -48.38) | PidX: -2.18 | PidY: -0.46
+Px: (-0.67) | Ix: (-0.00) | Dx: -1.84
+Py: (-0.32) | Iy: (-0.00) | Dy: -0.23
+Setpoints: (-80.00, -50.00) | Measurements: (-78.10, -48.37) | PidX: -2.16 | PidY: -0.38
+Px: (-0.76) | Ix: (-0.00) | Dx: -1.38
+Py: (-0.33) | Iy: (-0.00) | Dy: -0.02
+Setpoints: (-80.00, -50.00) | Measurements: (-78.02, -48.58) | PidX: -1.49 | PidY: 0.20
+Px: (-0.79) | Ix: (-0.00) | Dx: -0.42
+Py: (-0.28) | Iy: (-0.00) | Dy: 0.74
+Setpoints: (-80.00, -50.00) | Measurements: (-78.07, -49.05) | PidX: -0.81 | PidY: 1.09
+Px: (-0.77) | Ix: (-0.00) | Dx: 0.25
+Py: (-0.19) | Iy: (-0.00) | Dy: 1.66
+Setpoints: (-80.00, -50.00) | Measurements: (-77.75, -49.25) | PidX: -2.16 | PidY: 0.71
+Px: (-0.90) | Ix: (-0.00) | Dx: -1.84
+Py: (-0.15) | Iy: (-0.00) | Dy: 0.70
+Setpoints: (-80.00, -50.00) | Measurements: (-77.38, -49.42) | PidX: -2.94 | PidY: 0.54
+Px: (-1.05) | Ix: (-0.00) | Dx: -2.22
+Py: (-0.12) | Iy: (-0.00) | Dy: 0.59
+Setpoints: (-80.00, -50.00) | Measurements: (-77.18, -49.91) | PidX: -2.46 | PidY: 1.36
+Px: (-1.13) | Ix: (-0.00) | Dx: -1.13
+Py: (-0.02) | Iy: (-0.00) | Dy: 1.73
+Setpoints: (-80.00, -50.00) | Measurements: (-76.11, -49.37) | PidX: -6.26 | PidY: -1.01
+Px: (-1.56) | Ix: (-0.00) | Dx: -6.33
+Py: (-0.13) | Iy: (-0.00) | Dy: -1.90
+Setpoints: (-80.00, -50.00) | Measurements: (-75.84, -49.67) | PidX: -4.13 | PidY: 0.40
+Px: (-1.66) | Ix: (-0.00) | Dx: -1.55
+Py: (-0.07) | Iy: (-0.00) | Dy: 1.07
+Setpoints: (-80.00, -50.00) | Measurements: (-76.21, -50.52) | PidX: -0.80 | PidY: 2.27
+Px: (-1.52) | Ix: (-0.00) | Dx: 2.14
+Py: (0.10) | Iy: (-0.00) | Dy: 2.97
+Setpoints: (-80.00, 50.00) | Measurements: (-75.09, -50.12) | PidX: -6.19 | PidY: 14.02
+Px: (-1.96) | Ix: (-0.00) | Dx: -6.54
+Py: (20.02) | Iy: (0.00) | Dy: 0.00
+Setpoints: (-80.00, 50.00) | Measurements: (-74.90, -50.83) | PidX: -4.11 | PidY: 20.06
+Px: (-2.04) | Ix: (-0.00) | Dx: -1.17
+Py: (20.17) | Iy: (0.00) | Dy: 2.49
+Setpoints: (-80.00, 50.00) | Measurements: (-73.68, -50.29) | PidX: -8.02 | PidY: 18.75
+Px: (-2.53) | Ix: (-0.00) | Dx: -7.17
+Py: (20.06) | Iy: (0.00) | Dy: -1.88
+Setpoints: (-80.00, 50.00) | Measurements: (-72.94, -51.24) | PidX: -7.44 | PidY: 22.13
+Px: (-2.83) | Ix: (-0.00) | Dx: -4.36
+Py: (20.25) | Iy: (0.00) | Dy: 3.33
+Setpoints: (-80.00, 50.00) | Measurements: (-71.77, -50.99) | PidX: -9.35 | PidY: 20.17
+Px: (-3.29) | Ix: (-0.00) | Dx: -6.88
+Py: (20.20) | Iy: (0.00) | Dy: -0.86
+Setpoints: (-80.00, 50.00) | Measurements: (-68.93, -48.66) | PidX: -17.58 | PidY: 14.11
+Px: (-4.43) | Ix: (-0.00) | Dx: -16.68
+Py: (19.73) | Iy: (0.00) | Dy: -8.22
+Setpoints: (-80.00, 50.00) | Measurements: (-69.20, -48.24) | PidX: -7.18 | PidY: 16.94
+Px: (-4.32) | Ix: (-0.00) | Dx: 1.59
+Py: (19.65) | Iy: (0.00) | Dy: -1.50
+Setpoints: (-80.00, 50.00) | Measurements: (-70.79, -47.97) | PidX: 1.81 | PidY: 18.13
+Px: (-3.68) | Ix: (-0.00) | Dx: 9.35
+Py: (19.59) | Iy: (0.00) | Dy: -0.95
+Setpoints: (-80.00, 50.00) | Measurements: (-71.31, -46.59) | PidX: 0.25 | PidY: 15.54
+Px: (-3.48) | Ix: (-0.00) | Dx: 3.06
+Py: (19.32) | Iy: (0.00) | Dy: -4.89
+Setpoints: (-80.00, 50.00) | Measurements: (-68.58, -41.50) | PidX: -14.36 | PidY: 4.91
+Px: (-4.57) | Ix: (-0.00) | Dx: -16.06
+Py: (18.30) | Iy: (0.00) | Dy: -17.95
+Setpoints: (-80.00, 50.00) | Measurements: (-70.51, -37.01) | PidX: 0.99 | PidY: 2.55
+Px: (-3.80) | Ix: (-0.00) | Dx: 11.36
+Py: (17.40) | Iy: (0.00) | Dy: -15.86
+Setpoints: (-80.00, 50.00) | Measurements: (-72.52, -36.33) | PidX: 6.45 | PidY: 11.18
+Px: (-2.99) | Ix: (-0.00) | Dx: 11.78
+Py: (17.27) | Iy: (0.00) | Dy: -2.38
+Setpoints: (-80.00, 50.00) | Measurements: (-72.96, -33.32) | PidX: 1.78 | PidY: 7.59
+Px: (-2.82) | Ix: (-0.00) | Dx: 2.60
+Py: (16.66) | Iy: (0.00) | Dy: -10.62
+Setpoints: (-80.00, 50.00) | Measurements: (-73.16, -33.32) | PidX: -0.53 | PidY: 13.94
+Px: (-2.73) | Ix: (-0.00) | Dx: 1.22
+Py: (16.66) | Iy: (0.00) | Dy: 0.00
+Setpoints: (-80.00, 50.00) | Measurements: (-75.37, -22.18) | PidX: 7.64 | PidY: -6.71
+Px: (-1.85) | Ix: (-0.00) | Dx: 13.00
+Py: (14.44) | Iy: (0.00) | Dy: -30.00
+Setpoints: (-80.00, 50.00) | Measurements: (-75.38, -17.56) | PidX: 1.03 | PidY: -3.98
+Px: (-1.85) | Ix: (-0.00) | Dx: 0.04
+Py: (13.51) | Iy: (0.00) | Dy: -16.33
+Setpoints: (-80.00, 50.00) | Measurements: (-75.62, -12.64) | PidX: 0.08 | PidY: -4.58
+Px: (-1.75) | Ix: (-0.00) | Dx: 1.43
+Py: (12.53) | Iy: (0.00) | Dy: -17.36
+Setpoints: (-80.00, 50.00) | Measurements: (-76.60, -8.46) | PidX: 3.09 | PidY: -3.51
+Px: (-1.36) | Ix: (-0.00) | Dx: 5.74
+Py: (11.69) | Iy: (0.00) | Dy: -14.75
+Setpoints: (-80.00, 50.00) | Measurements: (-78.02, -5.14) | PidX: 6.21 | PidY: -1.53
+Px: (-0.79) | Ix: (-0.00) | Dx: 8.34
+Py: (11.03) | Iy: (0.00) | Dy: -11.71
+Setpoints: (-80.00, 50.00) | Measurements: (-77.26, -5.14) | PidX: -2.01 | PidY: 7.26
+Px: (-1.10) | Ix: (-0.00) | Dx: -4.44
+Py: (11.03) | Iy: (0.00) | Dy: 0.00
+Setpoints: (-80.00, 50.00) | Measurements: (-78.17, -5.14) | PidX: 2.61 | PidY: 9.90
+Px: (-0.73) | Ix: (-0.00) | Dx: 5.32
+Py: (11.03) | Iy: (0.00) | Dy: 0.00
+Setpoints: (-80.00, 50.00) | Measurements: (-78.47, 12.78) | PidX: 1.59 | PidY: -12.82
+Px: (-0.61) | Ix: (-0.00) | Dx: 1.76
+Py: (7.44) | Iy: (0.00) | Dy: -30.00
+Setpoints: (-80.00, 50.00) | Measurements: (-78.41, 18.75) | PidX: -0.20 | PidY: -14.22
+Px: (-0.64) | Ix: (-0.00) | Dx: -0.34
+Py: (6.25) | Iy: (0.00) | Dy: -21.07
+Setpoints: (-80.00, 50.00) | Measurements: (-78.76, 23.33) | PidX: 1.03 | PidY: -11.84
+Px: (-0.50) | Ix: (-0.00) | Dx: 2.05
+Py: (5.33) | Iy: (0.00) | Dy: -16.16
+Setpoints: (-80.00, 50.00) | Measurements: (-79.41, 26.79) | PidX: 2.84 | PidY: -8.84
+Px: (-0.23) | Ix: (-0.00) | Dx: 3.86
+Py: (4.64) | Iy: (0.00) | Dy: -12.20
+Setpoints: (-80.00, 50.00) | Measurements: (-77.54, 32.83) | PidX: -7.55 | PidY: -15.17
+Px: (-0.98) | Ix: (-0.00) | Dx: -11.03
+Py: (3.43) | Iy: (0.00) | Dy: -21.32
+Setpoints: (-80.00, 50.00) | Measurements: (-77.56, 39.29) | PidX: -2.86 | PidY: -19.01
+Px: (-0.98) | Ix: (-0.00) | Dx: 0.13
+Py: (2.14) | Iy: (0.00) | Dy: -22.80
+Setpoints: (-80.00, 50.00) | Measurements: (-78.80, 41.52) | PidX: 3.91 | PidY: -10.03
+Px: (-0.48) | Ix: (-0.00) | Dx: 7.29
+Py: (1.70) | Iy: (0.00) | Dy: -7.88
+Setpoints: (-80.00, 50.00) | Measurements: (-78.11, 45.85) | PidX: -2.20 | PidY: -13.12
+Px: (-0.76) | Ix: (-0.00) | Dx: -4.07
+Py: (0.83) | Iy: (0.00) | Dy: -15.27
+Setpoints: (-80.00, 50.00) | Measurements: (-78.47, 48.46) | PidX: 0.41 | PidY: -10.18
+Px: (-0.61) | Ix: (-0.00) | Dx: 2.14
+Py: (0.31) | Iy: (0.00) | Dy: -9.23
+Setpoints: (-80.00, 50.00) | Measurements: (-76.68, 52.76) | PidX: -8.20 | PidY: -14.06
+Px: (-1.33) | Ix: (-0.00) | Dx: -10.56
+Py: (-0.55) | Iy: (0.00) | Dy: -15.17
+Setpoints: (-80.00, 50.00) | Measurements: (-78.40, 54.84) | PidX: 4.19 | PidY: -10.03
+Px: (-0.64) | Ix: (-0.00) | Dx: 10.14
+Py: (-0.97) | Iy: (0.00) | Dy: -7.33
+Setpoints: (-80.00, 50.00) | Measurements: (-78.05, 59.18) | PidX: -0.73 | PidY: -15.03
+Px: (-0.78) | Ix: (-0.00) | Dx: -2.05
+Py: (-1.84) | Iy: (0.00) | Dy: -15.34
+Setpoints: (-80.00, 50.00) | Measurements: (-77.68, 61.85) | PidX: -2.39 | PidY: -12.74
+Px: (-0.93) | Ix: (-0.00) | Dx: -2.18
+Py: (-2.37) | Iy: (0.00) | Dy: -9.40
+Setpoints: (-80.00, 50.00) | Measurements: (-77.20, 64.54) | PidX: -3.47 | PidY: -12.53
+Px: (-1.12) | Ix: (-0.00) | Dx: -2.81
+Py: (-2.91) | Iy: (0.00) | Dy: -9.52
+Setpoints: (-80.00, 50.00) | Measurements: (-76.73, 66.81) | PidX: -3.92 | PidY: -11.72
+Px: (-1.31) | Ix: (-0.00) | Dx: -2.81
+Py: (-3.36) | Iy: (0.00) | Dy: -8.01
+Setpoints: (-80.00, 50.00) | Measurements: (-76.71, 69.84) | PidX: -2.16 | PidY: -13.77
+Px: (-1.31) | Ix: (-0.00) | Dx: -0.08
+Py: (-3.97) | Iy: (0.00) | Dy: -10.68
+Setpoints: (-80.00, 50.00) | Measurements: (-75.64, 71.42) | PidX: -6.27 | PidY: -11.04
+Px: (-1.74) | Ix: (-0.00) | Dx: -6.29
+Py: (-4.28) | Iy: (0.00) | Dy: -5.58
+Setpoints: (-80.00, 50.00) | Measurements: (-76.17, 72.65) | PidX: -0.78 | PidY: -9.52
+Px: (-1.53) | Ix: (-0.00) | Dx: 3.10
+Py: (-4.53) | Iy: (0.00) | Dy: -4.34
+Setpoints: (-80.00, 50.00) | Measurements: (-73.11, 75.04) | PidX: -14.75 | PidY: -12.26
+Px: (-2.75) | Ix: (-0.00) | Dx: -17.98
+Py: (-5.01) | Iy: (0.00) | Dy: -8.43
+Setpoints: (-80.00, 50.00) | Measurements: (-74.61, 74.87) | PidX: 0.23 | PidY: -6.75
+Px: (-2.16) | Ix: (-0.00) | Dx: 8.80
+Py: (-4.97) | Iy: (0.00) | Dy: 0.59
+Setpoints: (-80.00, 50.00) | Measurements: (-74.85, 75.80) | PidX: -0.38 | PidY: -7.94
+Px: (-2.06) | Ix: (-0.00) | Dx: 1.43
+Py: (-5.16) | Iy: (0.00) | Dy: -3.29
+Setpoints: (-80.00, 50.00) | Measurements: (-74.95, 76.10) | PidX: -1.12 | PidY: -6.77
+Px: (-2.02) | Ix: (-0.00) | Dx: 0.59
+Py: (-5.22) | Iy: (0.00) | Dy: -1.05
+Setpoints: (-80.00, 50.00) | Measurements: (-74.75, 76.23) | PidX: -2.66 | PidY: -6.01
+Px: (-2.10) | Ix: (-0.00) | Dx: -1.22
+Py: (-5.25) | Iy: (0.00) | Dy: -0.44
+Setpoints: (-80.00, 50.00) | Measurements: (-74.56, 76.38) | PidX: -3.08 | PidY: -5.88
+Px: (-2.18) | Ix: (-0.00) | Dx: -1.09
+Py: (-5.28) | Iy: (0.00) | Dy: -0.55
+Setpoints: (-80.00, 50.00) | Measurements: (-74.11, 76.36) | PidX: -4.42 | PidY: -5.41
+Px: (-2.36) | Ix: (-0.00) | Dx: -2.64
+Py: (-5.27) | Iy: (0.00) | Dy: 0.06
+Setpoints: (-80.00, 50.00) | Measurements: (-74.04, 76.00) | PidX: -3.29 | PidY: -4.38
+Px: (-2.38) | Ix: (-0.00) | Dx: -0.42
+Py: (-5.20) | Iy: (0.00) | Dy: 1.26
+Setpoints: (-80.00, 50.00) | Measurements: (-73.93, 75.69) | PidX: -3.16 | PidY: -4.13
+Px: (-2.43) | Ix: (-0.00) | Dx: -0.67
+Py: (-5.14) | Iy: (0.00) | Dy: 1.12
+Setpoints: (-80.00, 50.00) | Measurements: (-73.07, 75.43) | PidX: -6.41 | PidY: -4.16
+Px: (-2.77) | Ix: (-0.00) | Dx: -5.03
+Py: (-5.09) | Iy: (0.00) | Dy: 0.91
+Setpoints: (-80.00, 50.00) | Measurements: (-73.30, 74.96) | PidX: -2.86 | PidY: -3.58
+Px: (-2.68) | Ix: (-0.00) | Dx: 1.34
+Py: (-4.99) | Iy: (0.00) | Dy: 1.66
+Setpoints: (-80.00, 50.00) | Measurements: (-72.91, 74.15) | PidX: -4.43 | PidY: -2.46
+Px: (-2.83) | Ix: (-0.00) | Dx: -2.26
+Py: (-4.83) | Iy: (0.00) | Dy: 2.84
+Setpoints: (-80.00, 50.00) | Measurements: (-73.10, 73.82) | PidX: -2.50 | PidY: -3.25
+Px: (-2.76) | Ix: (-0.00) | Dx: 1.09
+Py: (-4.76) | Iy: (0.00) | Dy: 1.18
+Setpoints: (-80.00, 50.00) | Measurements: (-72.99, 72.56) | PidX: -3.15 | PidY: -1.02
+Px: (-2.80) | Ix: (-0.00) | Dx: -0.63
+Py: (-4.51) | Iy: (-0.00) | Dy: 4.45
+Setpoints: (-80.00, 50.00) | Measurements: (-73.09, 72.33) | PidX: -2.47 | PidY: -2.87
+Px: (-2.76) | Ix: (-0.00) | Dx: 0.59
+Py: (-4.47) | Iy: (-0.00) | Dy: 0.80
+Setpoints: (-80.00, 50.00) | Measurements: (-73.38, 71.49) | PidX: -1.39 | PidY: -1.78
+Px: (-2.65) | Ix: (-0.00) | Dx: 1.72
+Py: (-4.30) | Iy: (-0.00) | Dy: 2.99
+Setpoints: (-80.00, 50.00) | Measurements: (-73.62, 70.95) | PidX: -1.24 | PidY: -2.14
+Px: (-2.55) | Ix: (-0.00) | Dx: 1.38
+Py: (-4.19) | Iy: (-0.00) | Dy: 1.90
+Setpoints: (-80.00, 50.00) | Measurements: (-74.32, 70.07) | PidX: 0.91 | PidY: -1.27
+Px: (-2.27) | Ix: (-0.00) | Dx: 4.11
+Py: (-4.01) | Iy: (-0.00) | Dy: 3.12
+Setpoints: (-80.00, 50.00) | Measurements: (-74.54, 69.18) | PidX: -0.35 | PidY: -0.88
+Px: (-2.18) | Ix: (-0.00) | Dx: 1.30
+Py: (-3.84) | Iy: (-0.00) | Dy: 3.12
+Setpoints: (-80.00, 50.00) | Measurements: (-74.82, 68.35) | PidX: -0.38 | PidY: -0.77
+Px: (-2.07) | Ix: (-0.00) | Dx: 1.68
+Py: (-3.67) | Iy: (-0.00) | Dy: 2.95
+Setpoints: (-80.00, 50.00) | Measurements: (-74.97, 67.81) | PidX: -0.90 | PidY: -1.41
+Px: (-2.01) | Ix: (-0.00) | Dx: 0.88
+Py: (-3.56) | Iy: (-0.00) | Dy: 1.87
+Setpoints: (-80.00, 50.00) | Measurements: (-75.38, 66.66) | PidX: 0.11 | PidY: 0.11
+Px: (-1.85) | Ix: (-0.00) | Dx: 2.39
+Py: (-3.33) | Iy: (-0.00) | Dy: 4.09
+Setpoints: (-80.00, 50.00) | Measurements: (-76.28, 65.58) | PidX: 2.69 | PidY: 0.52
+Px: (-1.49) | Ix: (-0.00) | Dx: 5.28
+Py: (-3.12) | Iy: (-0.00) | Dy: 3.81
+Setpoints: (-80.00, 50.00) | Measurements: (-76.63, 64.79) | PidX: 1.33 | PidY: 0.03
+Px: (-1.35) | Ix: (-0.00) | Dx: 2.10
+Py: (-2.96) | Iy: (-0.00) | Dy: 2.78
+Setpoints: (-80.00, 50.00) | Measurements: (-77.20, 63.75) | PidX: 1.93 | PidY: 0.65
+Px: (-1.12) | Ix: (-0.00) | Dx: 3.31
+Py: (-2.75) | Iy: (-0.00) | Dy: 3.67
+Setpoints: (-80.00, 50.00) | Measurements: (-77.08, 63.00) | PidX: -0.71 | PidY: 0.23
+Px: (-1.17) | Ix: (-0.00) | Dx: -0.67
+Py: (-2.60) | Iy: (-0.00) | Dy: 2.65
+Setpoints: (-80.00, 50.00) | Measurements: (-77.56, 61.72) | PidX: 1.07 | PidY: 1.59
+Px: (-0.98) | Ix: (-0.00) | Dx: 2.81
+Py: (-2.34) | Iy: (-0.00) | Dy: 4.51
+Setpoints: (-80.00, 50.00) | Measurements: (-78.15, 60.73) | PidX: 2.24 | PidY: 1.42
+Px: (-0.74) | Ix: (-0.00) | Dx: 3.48
+Py: (-2.15) | Iy: (-0.00) | Dy: 3.50
+Setpoints: (-80.00, 50.00) | Measurements: (-77.79, 59.80) | PidX: -1.44 | PidY: 1.34
+Px: (-0.88) | Ix: (-0.00) | Dx: -2.14
+Py: (-1.96) | Iy: (-0.00) | Dy: 3.27
+Setpoints: (-80.00, 50.00) | Measurements: (-78.45, 59.00) | PidX: 1.86 | PidY: 1.12
+Px: (-0.62) | Ix: (-0.00) | Dx: 3.90
+Py: (-1.80) | Iy: (-0.00) | Dy: 2.82
+Setpoints: (-80.00, 50.00) | Measurements: (-78.56, 58.19) | PidX: 0.60 | PidY: 1.21
+Px: (-0.58) | Ix: (-0.00) | Dx: 0.63
+Py: (-1.64) | Iy: (-0.00) | Dy: 2.89
+Setpoints: (-80.00, 50.00) | Measurements: (-77.97, 58.55) | PidX: -2.79 | PidY: -1.73
+Px: (-0.81) | Ix: (-0.00) | Dx: -3.44
+Py: (-1.71) | Iy: (-0.00) | Dy: -1.29
+Setpoints: (-80.00, 50.00) | Measurements: (-77.97, 58.55) | PidX: -1.41 | PidY: -1.72
+Px: (-0.81) | Ix: (-0.00) | Dx: 0.00
+Py: (-1.71) | Iy: (-0.00) | Dy: 0.00
+Setpoints: (-80.00, 50.00) | Measurements: (-75.22, 57.43) | PidX: -13.12 | PidY: 1.22
+Px: (-1.91) | Ix: (-0.00) | Dx: -16.22
+Py: (-1.49) | Iy: (-0.00) | Dy: 3.96
+Setpoints: (-80.00, 50.00) | Measurements: (-76.88, 56.32) | PidX: 2.03 | PidY: 2.21
+Px: (-1.25) | Ix: (-0.00) | Dx: 9.77
+Py: (-1.26) | Iy: (-0.00) | Dy: 3.90
+Setpoints: (-80.00, 50.00) | Measurements: (-77.45, 55.79) | PidX: 2.27 | PidY: 1.16
+Px: (-1.02) | Ix: (-0.00) | Dx: 3.40
+Py: (-1.16) | Iy: (-0.00) | Dy: 1.87
+Setpoints: (-80.00, 50.00) | Measurements: (-77.19, 55.39) | PidX: -1.19 | PidY: 0.60
+Px: (-1.12) | Ix: (-0.00) | Dx: -1.55
+Py: (-1.08) | Iy: (-0.00) | Dy: 1.43
+Setpoints: (-80.00, 50.00) | Measurements: (-77.58, 54.92) | PidX: 0.58 | PidY: 0.66
+Px: (-0.97) | Ix: (-0.00) | Dx: 2.31
+Py: (-0.98) | Iy: (-0.00) | Dy: 1.66
+Setpoints: (-80.00, 50.00) | Measurements: (-77.95, 54.64) | PidX: 1.10 | PidY: 0.23
+Px: (-0.82) | Ix: (-0.00) | Dx: 2.14
+Py: (-0.93) | Iy: (-0.00) | Dy: 0.97
+Setpoints: (-80.00, 50.00) | Measurements: (-77.84, 54.58) | PidX: -0.72 | PidY: -0.43
+Px: (-0.86) | Ix: (-0.00) | Dx: -0.63
+Py: (-0.92) | Iy: (-0.00) | Dy: 0.21
+Setpoints: (-80.00, 50.00) | Measurements: (-77.82, 54.34) | PidX: -0.88 | PidY: -0.15
+Px: (-0.87) | Ix: (-0.00) | Dx: -0.08
+Py: (-0.87) | Iy: (-0.00) | Dy: 0.84
+Setpoints: (-80.00, 50.00) | Measurements: (-78.15, 53.99) | PidX: 0.57 | PidY: 0.27
+Px: (-0.74) | Ix: (-0.00) | Dx: 1.93
+Py: (-0.80) | Iy: (-0.00) | Dy: 1.24
+Setpoints: (-80.00, 50.00) | Measurements: (-78.02, 53.82) | PidX: -0.94 | PidY: -0.04
+Px: (-0.79) | Ix: (-0.00) | Dx: -0.80
+Py: (-0.76) | Iy: (-0.00) | Dy: 0.59
+Setpoints: (-80.00, 50.00) | Measurements: (-77.90, 53.61) | PidX: -1.34 | PidY: 0.01
+Px: (-0.84) | Ix: (-0.00) | Dx: -0.67
+Py: (-0.72) | Iy: (-0.00) | Dy: 0.76
+Setpoints: (-80.00, 50.00) | Measurements: (-78.02, 53.51) | PidX: -0.46 | PidY: -0.25
+Px: (-0.79) | Ix: (-0.00) | Dx: 0.71
+Py: (-0.70) | Iy: (-0.00) | Dy: 0.34
+Setpoints: (-80.00, 50.00) | Measurements: (-78.12, 53.38) | PidX: -0.28 | PidY: -0.22
+Px: (-0.75) | Ix: (-0.00) | Dx: 0.54
+Py: (-0.68) | Iy: (-0.00) | Dy: 0.46
+Setpoints: (-80.00, 50.00) | Measurements: (-78.20, 53.69) | PidX: -0.27 | PidY: -1.34
+Px: (-0.72) | Ix: (-0.00) | Dx: 0.46
+Py: (-0.74) | Iy: (-0.00) | Dy: -1.07
+Setpoints: (-80.00, 50.00) | Measurements: (-78.02, 53.79) | PidX: -1.37 | PidY: -1.18
+Px: (-0.79) | Ix: (-0.00) | Dx: -1.05
+Py: (-0.76) | Iy: (-0.00) | Dy: -0.36
+Setpoints: (-80.00, 50.00) | Measurements: (-78.10, 53.73) | PidX: -0.59 | PidY: -0.73
+Px: (-0.76) | Ix: (-0.00) | Dx: 0.50
+Py: (-0.75) | Iy: (-0.00) | Dy: 0.21
+Setpoints: (-80.00, 50.00) | Measurements: (-78.06, 53.89) | PidX: -0.90 | PidY: -1.18
+Px: (-0.78) | Ix: (-0.00) | Dx: -0.25
+Py: (-0.78) | Iy: (-0.00) | Dy: -0.59
+Setpoints: (-80.00, 50.00) | Measurements: (-78.10, 54.21) | PidX: -0.62 | PidY: -1.72
+Px: (-0.76) | Ix: (-0.00) | Dx: 0.25
+Py: (-0.84) | Iy: (-0.00) | Dy: -1.12
+Setpoints: (-80.00, 50.00) | Measurements: (-77.85, 54.30) | PidX: -1.85 | PidY: -1.34
+Px: (-0.86) | Ix: (-0.00) | Dx: -1.51
+Py: (-0.86) | Iy: (-0.00) | Dy: -0.32
+Setpoints: (-80.00, 50.00) | Measurements: (-77.87, 54.60) | PidX: -1.06 | PidY: -1.80
+Px: (-0.85) | Ix: (-0.00) | Dx: 0.13
+Py: (-0.92) | Iy: (-0.00) | Dy: -1.07
+Setpoints: (-80.00, 50.00) | Measurements: (-77.45, 55.09) | PidX: -2.73 | PidY: -2.45
+Px: (-1.02) | Ix: (-0.00) | Dx: -2.43
+Py: (-1.02) | Iy: (-0.00) | Dy: -1.71
+Setpoints: (-80.00, 50.00) | Measurements: (-77.34, 55.22) | PidX: -2.03 | PidY: -1.79
+Px: (-1.06) | Ix: (-0.00) | Dx: -0.67
+Py: (-1.04) | Iy: (-0.00) | Dy: -0.46
+Setpoints: (-80.00, 50.00) | Measurements: (-77.28, 55.39) | PidX: -1.64 | PidY: -1.72
+Px: (-1.09) | Ix: (-0.00) | Dx: -0.38
+Py: (-1.08) | Iy: (-0.00) | Dy: -0.61
+Setpoints: (-80.00, 50.00) | Measurements: (-76.76, 55.80) | PidX: -3.51 | PidY: -2.35
+Px: (-1.29) | Ix: (-0.00) | Dx: -3.02
+Py: (-1.16) | Iy: (-0.00) | Dy: -1.45
+Setpoints: (-80.00, 50.00) | Measurements: (-76.58, 56.00) | PidX: -2.77 | PidY: -2.03
+Px: (-1.37) | Ix: (-0.00) | Dx: -1.09
+Py: (-1.20) | Iy: (-0.00) | Dy: -0.70
+Setpoints: (-80.00, 50.00) | Measurements: (-76.37, 56.35) | PidX: -2.70 | PidY: -2.35
+Px: (-1.45) | Ix: (-0.00) | Dx: -1.22
+Py: (-1.27) | Iy: (-0.00) | Dy: -1.22
+Setpoints: (-80.00, 50.00) | Measurements: (-76.22, 56.35) | PidX: -2.48 | PidY: -1.61
+Px: (-1.51) | Ix: (-0.00) | Dx: -0.88
+Py: (-1.27) | Iy: (-0.00) | Dy: -0.02
+Setpoints: (-80.00, 50.00) | Measurements: (-76.18, 56.39) | PidX: -1.99 | PidY: -1.47
+Px: (-1.53) | Ix: (-0.00) | Dx: -0.25
+Py: (-1.28) | Iy: (-0.00) | Dy: -0.13
+Setpoints: (-80.00, 50.00) | Measurements: (-76.31, 56.78) | PidX: -1.10 | PidY: -2.35
+Px: (-1.48) | Ix: (-0.00) | Dx: 0.75
+Py: (-1.36) | Iy: (-0.00) | Dy: -1.37
+Setpoints: (-80.00, 50.00) | Measurements: (-75.99, 57.08) | PidX: -2.74 | PidY: -2.45
+Px: (-1.60) | Ix: (-0.00) | Dx: -1.84
+Py: (-1.42) | Iy: (-0.00) | Dy: -1.07
+Setpoints: (-80.00, 50.00) | Measurements: (-75.29, 57.29) | PidX: -5.05 | PidY: -2.26
+Px: (-1.89) | Ix: (-0.00) | Dx: -4.15
+Py: (-1.46) | Iy: (-0.00) | Dy: -0.72
+Setpoints: (-80.00, 50.00) | Measurements: (-75.51, 57.54) | PidX: -1.86 | PidY: -2.35
+Px: (-1.80) | Ix: (-0.00) | Dx: 1.30
+Py: (-1.51) | Iy: (-0.00) | Dy: -0.88
+Setpoints: (-80.00, 50.00) | Measurements: (-75.19, 57.81) | PidX: -3.20 | PidY: -2.48
+Px: (-1.92) | Ix: (-0.00) | Dx: -1.84
+Py: (-1.56) | Iy: (-0.00) | Dy: -0.97
+Setpoints: (-80.00, 50.00) | Measurements: (-74.68, 58.59) | PidX: -4.56 | PidY: -3.86
+Px: (-2.13) | Ix: (-0.00) | Dx: -3.02
+Py: (-1.72) | Iy: (-0.00) | Dy: -2.74
+Setpoints: (-80.00, 50.00) | Measurements: (-74.77, 58.76) | PidX: -2.45 | PidY: -2.81
+Px: (-2.09) | Ix: (-0.00) | Dx: 0.55
+Py: (-1.75) | Iy: (-0.00) | Dy: -0.61
+Setpoints: (-80.00, 50.00) | Measurements: (-73.97, 59.02) | PidX: -5.74 | PidY: -2.76
+Px: (-2.41) | Ix: (-0.00) | Dx: -4.74
+Py: (-1.80) | Iy: (-0.00) | Dy: -0.93
+Setpoints: (-80.00, 50.00) | Measurements: (-73.91, 59.35) | PidX: -3.66 | PidY: -2.95
+Px: (-2.44) | Ix: (-0.00) | Dx: -0.34
+Py: (-1.87) | Iy: (-0.00) | Dy: -1.16
+Setpoints: (-80.00, 50.00) | Measurements: (-73.68, 59.75) | PidX: -3.84 | PidY: -3.24
+Px: (-2.53) | Ix: (-0.00) | Dx: -1.38
+Py: (-1.95) | Iy: (-0.00) | Dy: -1.41
+Setpoints: (-80.00, 50.00) | Measurements: (-73.36, 59.91) | PidX: -4.30 | PidY: -2.76
+Px: (-2.65) | Ix: (-0.00) | Dx: -1.84
+Py: (-1.98) | Iy: (-0.00) | Dy: -0.57
+Setpoints: (-80.00, 50.00) | Measurements: (-73.30, 60.19) | PidX: -3.43 | PidY: -2.95
+Px: (-2.68) | Ix: (-0.00) | Dx: -0.38
+Py: (-2.04) | Iy: (-0.00) | Dy: -0.99
+Setpoints: (-80.00, 50.00) | Measurements: (-73.40, 60.51) | PidX: -2.47 | PidY: -3.14
+Px: (-2.64) | Ix: (-0.00) | Dx: 0.59
+Py: (-2.10) | Iy: (-0.00) | Dy: -1.12
+Setpoints: (-80.00, 50.00) | Measurements: (-73.09, 60.94) | PidX: -3.94 | PidY: -3.55
+Px: (-2.76) | Ix: (-0.00) | Dx: -1.80
+Py: (-2.19) | Iy: (-0.00) | Dy: -1.54
+Setpoints: (-80.00, 50.00) | Measurements: (-72.94, 61.26) | PidX: -3.80 | PidY: -3.42
+Px: (-2.83) | Ix: (-0.00) | Dx: -0.92
+Py: (-2.25) | Iy: (-0.00) | Dy: -1.12
+Setpoints: (-80.00, 50.00) | Measurements: (-72.91, 61.50) | PidX: -3.21 | PidY: -3.23
+Px: (-2.83) | Ix: (-0.00) | Dx: -0.13
+Py: (-2.30) | Iy: (-0.00) | Dy: -0.84
+Setpoints: (-80.00, 50.00) | Measurements: (-73.13, 61.65) | PidX: -2.01 | PidY: -2.97
+Px: (-2.75) | Ix: (-0.00) | Dx: 1.26
+Py: (-2.33) | Iy: (-0.00) | Dy: -0.53
+Setpoints: (-80.00, 50.00) | Measurements: (-73.21, 61.86) | PidX: -2.15 | PidY: -3.07
+Px: (-2.71) | Ix: (-0.00) | Dx: 0.50
+Py: (-2.37) | Iy: (-0.00) | Dy: -0.74
+Setpoints: (-80.00, 50.00) | Measurements: (-73.79, 61.91) | PidX: -0.01 | PidY: -2.70
+Px: (-2.48) | Ix: (-0.00) | Dx: 3.40
+Py: (-2.38) | Iy: (-0.00) | Dy: -0.17
+Setpoints: (80.00, 50.00) | Measurements: (-73.83, 62.27) | PidX: 17.50 | PidY: -3.43
+Px: (25.00) | Ix: (0.00) | Dx: 0.00
+Py: (-2.45) | Iy: (-0.00) | Dy: -1.29
+Setpoints: (80.00, 50.00) | Measurements: (-74.03, 62.91) | PidX: 23.57 | PidY: -4.43
+Px: (25.00) | Ix: (0.00) | Dx: 1.17
+Py: (-2.58) | Iy: (-0.00) | Dy: -2.28
+Setpoints: (80.00, 50.00) | Measurements: (-74.56, 63.10) | PidX: 26.74 | PidY: -3.62
+Px: (25.00) | Ix: (0.00) | Dx: 3.10
+Py: (-2.62) | Iy: (-0.00) | Dy: -0.65
+Setpoints: (80.00, 50.00) | Measurements: (-75.19, 63.10) | PidX: 28.11 | PidY: -2.92
+Px: (25.00) | Ix: (0.00) | Dx: 3.69
+Py: (-2.62) | Iy: (-0.00) | Dy: -0.00
+Setpoints: (80.00, 50.00) | Measurements: (-75.62, 63.49) | PidX: 27.69 | PidY: -3.74
+Px: (25.00) | Ix: (0.00) | Dx: 2.52
+Py: (-2.70) | Iy: (-0.00) | Dy: -1.39
+Setpoints: (80.00, 50.00) | Measurements: (-75.96, 63.46) | PidX: 27.22 | PidY: -2.93
+Px: (25.00) | Ix: (0.00) | Dx: 2.01
+Py: (-2.69) | Iy: (-0.00) | Dy: 0.11
+Setpoints: (80.00, 50.00) | Measurements: (-76.16, 63.64) | PidX: 26.52 | PidY: -3.23
+Px: (25.00) | Ix: (0.00) | Dx: 1.22
+Py: (-2.73) | Iy: (-0.00) | Dy: -0.63
+Setpoints: (80.00, 50.00) | Measurements: (-75.42, 63.96) | PidX: 22.40 | PidY: -3.71
+Px: (25.00) | Ix: (0.00) | Dx: -4.36
+Py: (-2.79) | Iy: (-0.00) | Dy: -1.12
+Setpoints: (80.00, 50.00) | Measurements: (-74.63, 63.89) | PidX: 20.96 | PidY: -2.88
+Px: (25.00) | Ix: (0.00) | Dx: -4.65
+Py: (-2.78) | Iy: (-0.00) | Dy: 0.25
+Setpoints: (80.00, 50.00) | Measurements: (-73.01, 64.50) | PidX: 17.13 | PidY: -4.41
+Px: (25.00) | Ix: (0.00) | Dx: -9.52
+Py: (-2.90) | Iy: (-0.00) | Dy: -2.17
+Setpoints: (80.00, 50.00) | Measurements: (-70.71, 64.90) | PidX: 13.16 | PidY: -4.40
+Px: (25.00) | Ix: (0.00) | Dx: -13.54
+Py: (-2.98) | Iy: (-0.00) | Dy: -1.41
+Setpoints: (80.00, 50.00) | Measurements: (-67.83, 65.08) | PidX: 9.59 | PidY: -3.87
+Px: (25.00) | Ix: (0.00) | Dx: -16.94
+Py: (-3.02) | Iy: (-0.00) | Dy: -0.63
+Setpoints: (80.00, 50.00) | Measurements: (-63.81, 65.60) | PidX: 3.83 | PidY: -4.63
+Px: (25.00) | Ix: (0.00) | Dx: -23.64
+Py: (-3.12) | Iy: (-0.00) | Dy: -1.83
+Setpoints: (80.00, 50.00) | Measurements: (-61.14, 65.76) | PidX: 7.64 | PidY: -3.99
+Px: (25.00) | Ix: (0.00) | Dx: -15.72
+Py: (-3.15) | Iy: (-0.00) | Dy: -0.57
+Setpoints: (80.00, 50.00) | Measurements: (-56.69, 66.15) | PidX: 1.48 | PidY: -4.42
+Px: (25.00) | Ix: (0.00) | Dx: -26.16
+Py: (-3.23) | Iy: (-0.00) | Dy: -1.37
+Setpoints: (80.00, 50.00) | Measurements: (-51.53, 66.91) | PidX: -3.06 | PidY: -5.58
+Px: (25.00) | Ix: (0.00) | Dx: -30.00
+Py: (-3.38) | Iy: (-0.00) | Dy: -2.70
+Setpoints: (80.00, 50.00) | Measurements: (-49.34, 67.18) | PidX: 7.57 | PidY: -4.73
+Px: (25.00) | Ix: (0.00) | Dx: -12.87
+Py: (-3.44) | Iy: (-0.00) | Dy: -0.93
+Setpoints: (80.00, 50.00) | Measurements: (-49.34, 67.46) | PidX: 19.77 | PidY: -4.56
+Px: (25.00) | Ix: (0.00) | Dx: 0.00
+Py: (-3.49) | Iy: (-0.00) | Dy: -0.99
+Setpoints: (80.00, 50.00) | Measurements: (-31.14, 68.07) | PidX: 2.43 | PidY: -5.40
+Px: (25.00) | Ix: (0.00) | Dx: -30.00
+Py: (-3.61) | Iy: (-0.00) | Dy: -2.15
+Setpoints: (80.00, 50.00) | Measurements: (-28.03, 68.07) | PidX: 5.44 | PidY: -4.15
+Px: (25.00) | Ix: (0.00) | Dx: -18.28
+Py: (-3.61) | Iy: (-0.00) | Dy: -0.00
+Setpoints: (80.00, 50.00) | Measurements: (-20.75, 68.75) | PidX: -1.87 | PidY: -5.57
+Px: (25.00) | Ix: (0.00) | Dx: -30.00
+Py: (-3.75) | Iy: (-0.00) | Dy: -2.42
+Setpoints: (80.00, 50.00) | Measurements: (-15.37, 69.00) | PidX: -4.06 | PidY: -4.93
+Px: (25.00) | Ix: (0.00) | Dx: -30.00
+Py: (-3.80) | Iy: (-0.00) | Dy: -0.86
+Setpoints: (80.00, 50.00) | Measurements: (-9.99, 69.15) | PidX: -4.72 | PidY: -4.53
+Px: (25.00) | Ix: (0.00) | Dx: -30.00
+Py: (-3.83) | Iy: (-0.00) | Dy: -0.53
+Setpoints: (80.00, 50.00) | Measurements: (-2.65, 69.49) | PidX: -4.92 | PidY: -4.93
+Px: (25.00) | Ix: (0.00) | Dx: -30.00
+Py: (-3.90) | Iy: (-0.00) | Dy: -1.20
+Setpoints: (80.00, 50.00) | Measurements: (1.23, 69.47) | PidX: 0.03 | PidY: -4.18
+Px: (25.00) | Ix: (0.00) | Dx: -22.85
+Py: (-3.89) | Iy: (-0.00) | Dy: 0.04
+Setpoints: (80.00, 50.00) | Measurements: (6.96, 69.60) | PidX: -3.49 | PidY: -4.31
+Px: (25.00) | Ix: (0.00) | Dx: -30.00
+Py: (-3.92) | Iy: (-0.00) | Dy: -0.44
+Setpoints: (80.00, 50.00) | Measurements: (14.64, 69.91) | PidX: -4.55 | PidY: -4.85
+Px: (25.00) | Ix: (0.00) | Dx: -30.00
+Py: (-3.98) | Iy: (-0.00) | Dy: -1.10
+Setpoints: (80.00, 50.00) | Measurements: (19.75, 69.64) | PidX: -5.49 | PidY: -3.52
+Px: (24.10) | Ix: (0.00) | Dx: -30.00
+Py: (-3.93) | Iy: (-0.00) | Dy: 0.97
+Setpoints: (80.00, 50.00) | Measurements: (25.24, 69.73) | PidX: -7.32 | PidY: -4.04
+Px: (21.90) | Ix: (0.00) | Dx: -30.00
+Py: (-3.95) | Iy: (-0.00) | Dy: -0.32
+Setpoints: (80.00, 50.00) | Measurements: (30.77, 69.71) | PidX: -9.41 | PidY: -3.94
+Px: (19.69) | Ix: (0.00) | Dx: -30.00
+Py: (-3.94) | Iy: (-0.00) | Dy: 0.04
+Setpoints: (80.00, 50.00) | Measurements: (36.42, 70.10) | PidX: -11.62 | PidY: -4.94
+Px: (17.43) | Ix: (0.00) | Dx: -30.00
+Py: (-4.02) | Iy: (-0.00) | Dy: -1.35
+Setpoints: (80.00, 50.00) | Measurements: (42.45, 69.61) | PidX: -13.97 | PidY: -3.03
+Px: (15.02) | Ix: (0.00) | Dx: -30.00
+Py: (-3.92) | Iy: (-0.00) | Dy: 1.71
+Setpoints: (80.00, 50.00) | Measurements: (48.06, 69.63) | PidX: -16.25 | PidY: -3.70
+Px: (12.78) | Ix: (0.00) | Dx: -30.00
+Py: (-3.93) | Iy: (-0.00) | Dy: -0.06
+Setpoints: (80.00, 50.00) | Measurements: (51.97, 69.50) | PidX: -13.11 | PidY: -3.53
+Px: (11.21) | Ix: (0.00) | Dx: -22.97
+Py: (-3.90) | Iy: (-0.00) | Dy: 0.44
+Setpoints: (80.00, 50.00) | Measurements: (57.40, 69.40) | PidX: -18.61 | PidY: -3.53
+Px: (9.04) | Ix: (0.00) | Dx: -30.00
+Py: (-3.88) | Iy: (-0.00) | Dy: 0.36
+Setpoints: (80.00, 50.00) | Measurements: (61.36, 69.65) | PidX: -16.65 | PidY: -4.43
+Px: (7.46) | Ix: (0.00) | Dx: -23.27
+Py: (-3.93) | Iy: (-0.00) | Dy: -0.88
+Setpoints: (80.00, 50.00) | Measurements: (68.54, 69.92) | PidX: -22.79 | PidY: -4.78
+Px: (4.58) | Ix: (0.00) | Dx: -30.00
+Py: (-3.98) | Iy: (-0.00) | Dy: -0.95
+Setpoints: (80.00, 50.00) | Measurements: (72.56, 68.37) | PidX: -21.27 | PidY: -0.17
+Px: (2.98) | Ix: (0.00) | Dx: -23.60
+Py: (-3.67) | Iy: (-0.00) | Dy: 5.48
+Setpoints: (80.00, 50.00) | Measurements: (76.87, 67.27) | PidX: -23.29 | PidY: 0.24
+Px: (1.25) | Ix: (0.00) | Dx: -25.40
+Py: (-3.45) | Iy: (-0.00) | Dy: 3.88
+Setpoints: (80.00, 50.00) | Measurements: (76.87, 66.89) | PidX: -6.11 | PidY: -1.35
+Px: (1.25) | Ix: (0.00) | Dx: 0.00
+Py: (-3.38) | Iy: (-0.00) | Dy: 1.35
+Setpoints: (80.00, 50.00) | Measurements: (92.61, 66.56) | PidX: -26.33 | PidY: -1.91
+Px: (-5.04) | Ix: (0.00) | Dx: -30.00
+Py: (-3.31) | Iy: (-0.00) | Dy: 1.16
+Setpoints: (80.00, 50.00) | Measurements: (95.35, 66.17) | PidX: -23.47 | PidY: -1.86
+Px: (-6.14) | Ix: (0.00) | Dx: -16.10
+Py: (-3.23) | Iy: (-0.00) | Dy: 1.39
+Setpoints: (80.00, 50.00) | Measurements: (98.66, 65.37) | PidX: -25.91 | PidY: -0.73
+Px: (-7.46) | Ix: (0.00) | Dx: -19.49
+Py: (-3.07) | Iy: (-0.00) | Dy: 2.82
+Setpoints: (80.00, 50.00) | Measurements: (101.72, 64.96) | PidX: -26.44 | PidY: -1.31
+Px: (-8.69) | Ix: (0.00) | Dx: -17.98
+Py: (-2.99) | Iy: (-0.00) | Dy: 1.43
+Setpoints: (80.00, 50.00) | Measurements: (106.91, 64.22) | PidX: -32.43 | PidY: -0.54
+Px: (-10.77) | Ix: (0.00) | Dx: -30.00
+Py: (-2.84) | Iy: (-0.00) | Dy: 2.63
+Setpoints: (80.00, 50.00) | Measurements: (109.46, 63.58) | PidX: -28.49 | PidY: -0.48
+Px: (-11.79) | Ix: (0.00) | Dx: -15.01
+Py: (-2.72) | Iy: (-0.00) | Dy: 2.25
+Setpoints: (80.00, 50.00) | Measurements: (112.21, 63.68) | PidX: -28.86 | PidY: -2.33
+Px: (-12.88) | Ix: (0.00) | Dx: -16.14
+Py: (-2.74) | Iy: (-0.00) | Dy: -0.38
+Setpoints: (80.00, 50.00) | Measurements: (113.93, 62.77) | PidX: -25.23 | PidY: -0.23
+Px: (-13.57) | Ix: (0.00) | Dx: -10.10
+Py: (-2.55) | Iy: (-0.00) | Dy: 3.22
+Setpoints: (80.00, 50.00) | Measurements: (115.79, 62.27) | PidX: -25.28 | PidY: -0.55
+Px: (-14.32) | Ix: (0.00) | Dx: -10.98
+Py: (-2.45) | Iy: (-0.00) | Dy: 1.77
+Setpoints: (80.00, 50.00) | Measurements: (117.03, 61.67) | PidX: -23.06 | PidY: -0.31
+Px: (-14.81) | Ix: (0.00) | Dx: -7.29
+Py: (-2.33) | Iy: (-0.00) | Dy: 2.13
+Setpoints: (80.00, 50.00) | Measurements: (117.60, 61.26) | PidX: -19.79 | PidY: -0.67
+Px: (-15.04) | Ix: (0.00) | Dx: -3.35
+Py: (-2.25) | Iy: (-0.00) | Dy: 1.43
+Setpoints: (80.00, 50.00) | Measurements: (118.78, 60.64) | PidX: -21.64 | PidY: -0.16
+Px: (-15.51) | Ix: (0.00) | Dx: -6.92
+Py: (-2.13) | Iy: (-0.00) | Dy: 2.19
+Setpoints: (80.00, 50.00) | Measurements: (119.39, 60.15) | PidX: -20.04 | PidY: -0.26
+Px: (-15.76) | Ix: (0.00) | Dx: -3.61
+Py: (-2.03) | Iy: (-0.00) | Dy: 1.73
+Setpoints: (80.00, 50.00) | Measurements: (119.78, 59.52) | PidX: -18.74 | PidY: 0.15
+Px: (-15.91) | Ix: (0.00) | Dx: -2.26
+Py: (-1.90) | Iy: (-0.00) | Dy: 2.23
+Setpoints: (80.00, 50.00) | Measurements: (119.80, 58.63) | PidX: -16.88 | PidY: 1.02
+Px: (-15.92) | Ix: (0.00) | Dx: -0.17
+Py: (-1.73) | Iy: (-0.00) | Dy: 3.12
+Setpoints: (80.00, 50.00) | Measurements: (119.48, 58.32) | PidX: -14.80 | PidY: -0.08
+Px: (-15.79) | Ix: (-0.00) | Dx: 1.89
+Py: (-1.66) | Iy: (-0.00) | Dy: 1.12
+Setpoints: (80.00, 50.00) | Measurements: (119.41, 57.61) | PidX: -15.18 | PidY: 0.65
+Px: (-15.77) | Ix: (-0.00) | Dx: 0.42
+Py: (-1.52) | Iy: (-0.00) | Dy: 2.49
+Setpoints: (80.00, 50.00) | Measurements: (118.61, 57.09) | PidX: -12.08 | PidY: 0.50
+Px: (-15.45) | Ix: (-0.00) | Dx: 4.70
+Py: (-1.42) | Iy: (-0.00) | Dy: 1.85
+Setpoints: (80.00, 50.00) | Measurements: (117.62, 56.26) | PidX: -10.05 | PidY: 1.31
+Px: (-15.05) | Ix: (-0.00) | Dx: 5.87
+Py: (-1.25) | Iy: (-0.00) | Dy: 2.91
+Setpoints: (80.00, 50.00) | Measurements: (116.51, 55.58) | PidX: -8.69 | PidY: 1.29
+Px: (-14.60) | Ix: (-0.00) | Dx: 6.50
+Py: (-1.12) | Iy: (-0.00) | Dy: 2.40
+Setpoints: (80.00, 50.00) | Measurements: (114.94, 54.71) | PidX: -5.90 | PidY: 1.90
+Px: (-13.97) | Ix: (-0.00) | Dx: 9.26
+Py: (-0.94) | Iy: (-0.00) | Dy: 3.10
+Setpoints: (80.00, 50.00) | Measurements: (113.78, 54.50) | PidX: -6.45 | PidY: 0.46
+Px: (-13.51) | Ix: (-0.00) | Dx: 6.83
+Py: (-0.90) | Iy: (-0.00) | Dy: 0.74
+Setpoints: (80.00, 50.00) | Measurements: (111.08, 54.09) | PidX: 0.46 | PidY: 0.58
+Px: (-12.43) | Ix: (-0.00) | Dx: 15.85
+Py: (-0.82) | Iy: (-0.00) | Dy: 1.45
+Setpoints: (80.00, 50.00) | Measurements: (108.87, 53.58) | PidX: 1.15 | PidY: 0.91
+Px: (-11.55) | Ix: (-0.00) | Dx: 13.00
+Py: (-0.72) | Iy: (-0.00) | Dy: 1.77
+Setpoints: (80.00, 50.00) | Measurements: (107.05, 53.23) | PidX: 0.28 | PidY: 0.69
+Px: (-10.82) | Ix: (-0.00) | Dx: 10.73
+Py: (-0.65) | Iy: (-0.00) | Dy: 1.24
+Setpoints: (80.00, 50.00) | Measurements: (105.55, 53.06) | PidX: -0.91 | PidY: 0.19
+Px: (-10.22) | Ix: (-0.00) | Dx: 8.80
+Py: (-0.61) | Iy: (-0.00) | Dy: 0.59
+Setpoints: (80.00, 50.00) | Measurements: (103.50, 53.15) | PidX: 1.60 | PidY: -0.61
+Px: (-9.40) | Ix: (-0.00) | Dx: 12.07
+Py: (-0.63) | Iy: (-0.00) | Dy: -0.32
+Setpoints: (80.00, 50.00) | Measurements: (101.32, 52.59) | PidX: 3.49 | PidY: 0.86
+Px: (-8.53) | Ix: (-0.00) | Dx: 12.83
+Py: (-0.52) | Iy: (-0.00) | Dy: 2.00
+Setpoints: (80.00, 50.00) | Measurements: (99.34, 52.13) | PidX: 3.79 | PidY: 1.09
+Px: (-7.73) | Ix: (-0.00) | Dx: 11.65
+Py: (-0.43) | Iy: (-0.00) | Dy: 1.62
+Setpoints: (80.00, 50.00) | Measurements: (96.05, 52.22) | PidX: 10.17 | PidY: -0.22
+Px: (-6.42) | Ix: (-0.00) | Dx: 19.33
+Py: (-0.44) | Iy: (-0.00) | Dy: -0.34
+Setpoints: (80.00, 50.00) | Measurements: (94.75, 51.99) | PidX: 4.26 | PidY: 0.23
+Px: (-5.90) | Ix: (-0.00) | Dx: 7.63
+Py: (-0.40) | Iy: (-0.00) | Dy: 0.82
+Setpoints: (80.00, 50.00) | Measurements: (93.18, 52.27) | PidX: 4.07 | PidY: -0.94
+Px: (-5.27) | Ix: (-0.00) | Dx: 9.26
+Py: (-0.45) | Iy: (-0.00) | Dy: -0.99
+Setpoints: (80.00, 50.00) | Measurements: (91.94, 52.13) | PidX: 2.98 | PidY: -0.24
+Px: (-4.78) | Ix: (-0.00) | Dx: 7.29
+Py: (-0.43) | Iy: (-0.00) | Dy: 0.48
+Setpoints: (80.00, 50.00) | Measurements: (91.78, 53.44) | PidX: -1.76 | PidY: -3.78
+Px: (-4.71) | Ix: (-0.00) | Dx: 0.92
+Py: (-0.69) | Iy: (-0.00) | Dy: -4.61
+Setpoints: (80.00, 50.00) | Measurements: (89.79, 52.68) | PidX: 4.92 | PidY: 0.36
+Px: (-3.92) | Ix: (-0.00) | Dx: 11.70
+Py: (-0.54) | Iy: (-0.00) | Dy: 2.68
+Setpoints: (80.00, 50.00) | Measurements: (88.99, 52.90) | PidX: 2.27 | PidY: -0.83
+Px: (-3.60) | Ix: (-0.00) | Dx: 4.74
+Py: (-0.58) | Iy: (-0.00) | Dy: -0.76
+Setpoints: (80.00, 50.00) | Measurements: (88.04, 52.85) | PidX: 2.33 | PidY: -0.53
+Px: (-3.22) | Ix: (-0.00) | Dx: 5.58
+Py: (-0.57) | Iy: (-0.00) | Dy: 0.17
+Setpoints: (80.00, 50.00) | Measurements: (87.76, 53.02) | PidX: -0.33 | PidY: -1.01
+Px: (-3.11) | Ix: (-0.00) | Dx: 1.63
+Py: (-0.60) | Iy: (-0.00) | Dy: -0.61
+Setpoints: (80.00, 50.00) | Measurements: (87.20, 53.71) | PidX: 0.20 | PidY: -2.52
+Px: (-2.88) | Ix: (-0.00) | Dx: 3.31
+Py: (-0.74) | Iy: (-0.00) | Dy: -2.42
+Setpoints: (80.00, 50.00) | Measurements: (87.12, 54.26) | PidX: -1.61 | PidY: -2.71
+Px: (-2.85) | Ix: (-0.00) | Dx: 0.46
+Py: (-0.85) | Iy: (-0.00) | Dy: -1.94
+Setpoints: (80.00, 50.00) | Measurements: (86.74, 54.60) | PidX: -0.82 | PidY: -2.30
+Px: (-2.70) | Ix: (-0.00) | Dx: 2.22
+Py: (-0.92) | Iy: (-0.00) | Dy: -1.20
+Setpoints: (80.00, 50.00) | Measurements: (86.55, 55.23) | PidX: -1.29 | PidY: -2.97
+Px: (-2.62) | Ix: (-0.00) | Dx: 1.13
+Py: (-1.05) | Iy: (-0.00) | Dy: -2.21
+Setpoints: (80.00, 50.00) | Measurements: (86.72, 55.66) | PidX: -2.97 | PidY: -2.76
+Px: (-2.69) | Ix: (-0.00) | Dx: -1.01
+Py: (-1.13) | Iy: (-0.00) | Dy: -1.54
+Setpoints: (80.00, 50.00) | Measurements: (86.82, 56.22) | PidX: -3.18 | PidY: -3.07
+Px: (-2.73) | Ix: (-0.00) | Dx: -0.54
+Py: (-1.24) | Iy: (-0.00) | Dy: -1.96
+Setpoints: (80.00, 50.00) | Measurements: (86.96, 56.57) | PidX: -3.49 | PidY: -2.71
+Px: (-2.78) | Ix: (-0.00) | Dx: -0.84
+Py: (-1.31) | Iy: (-0.00) | Dy: -1.24
+Setpoints: (80.00, 50.00) | Measurements: (87.41, 57.17) | PidX: -5.00 | PidY: -3.31
+Px: (-2.97) | Ix: (-0.00) | Dx: -2.68
+Py: (-1.43) | Iy: (-0.00) | Dy: -2.13
+Setpoints: (80.00, 50.00) | Measurements: (87.93, 57.27) | PidX: -5.83 | PidY: -2.26
+Px: (-3.17) | Ix: (-0.00) | Dx: -3.02
+Py: (-1.45) | Iy: (-0.00) | Dy: -0.36
+Setpoints: (80.00, 50.00) | Measurements: (88.58, 57.84) | PidX: -6.85 | PidY: -3.18
+Px: (-3.43) | Ix: (-0.00) | Dx: -3.86
+Py: (-1.57) | Iy: (-0.00) | Dy: -2.00
+Setpoints: (80.00, 50.00) | Measurements: (89.30, 58.37) | PidX: -7.62 | PidY: -3.44
+Px: (-3.72) | Ix: (-0.00) | Dx: -4.23
+Py: (-1.67) | Iy: (-0.00) | Dy: -1.88
+Setpoints: (80.00, 50.00) | Measurements: (90.61, 59.37) | PidX: -10.66 | PidY: -4.82
+Px: (-4.25) | Ix: (-0.00) | Dx: -7.71
+Py: (-1.87) | Iy: (-0.00) | Dy: -3.54
+Setpoints: (80.00, 50.00) | Measurements: (91.38, 59.58) | PidX: -9.52 | PidY: -3.30
+Px: (-4.55) | Ix: (-0.00) | Dx: -4.49
+Py: (-1.92) | Iy: (-0.00) | Dy: -0.74
+Setpoints: (80.00, 50.00) | Measurements: (92.22, 59.97) | PidX: -9.77 | PidY: -3.33
+Px: (-4.89) | Ix: (-0.00) | Dx: -4.99
+Py: (-1.99) | Iy: (-0.00) | Dy: -1.35
+Setpoints: (80.00, 50.00) | Measurements: (92.75, 60.37) | PidX: -8.67 | PidY: -3.44
+Px: (-5.10) | Ix: (-0.00) | Dx: -3.10
+Py: (-2.07) | Iy: (-0.00) | Dy: -1.41
+Setpoints: (80.00, 50.00) | Measurements: (93.86, 61.99) | PidX: -11.06 | PidY: -6.74
+Px: (-5.55) | Ix: (-0.00) | Dx: -6.54
+Py: (-2.40) | Iy: (-0.00) | Dy: -5.75
+Setpoints: (80.00, 50.00) | Measurements: (95.01, 62.11) | PidX: -12.25 | PidY: -4.00
+Px: (-6.00) | Ix: (-0.00) | Dx: -6.75
+Py: (-2.42) | Iy: (-0.00) | Dy: -0.40
+Setpoints: (80.00, 50.00) | Measurements: (95.67, 62.41) | PidX: -10.79 | PidY: -3.67
+Px: (-6.27) | Ix: (-0.00) | Dx: -3.90
+Py: (-2.48) | Iy: (-0.00) | Dy: -1.05
+Setpoints: (80.00, 50.00) | Measurements: (96.12, 62.85) | PidX: -9.57 | PidY: -3.99
+Px: (-6.45) | Ix: (-0.00) | Dx: -2.60
+Py: (-2.57) | Iy: (-0.00) | Dy: -1.56
+Setpoints: (80.00, 50.00) | Measurements: (96.06, 63.22) | PidX: -7.13 | PidY: -3.96
+Px: (-6.42) | Ix: (-0.00) | Dx: 0.34
+Py: (-2.64) | Iy: (-0.00) | Dy: -1.31
+Setpoints: (80.00, 50.00) | Measurements: (96.26, 63.51) | PidX: -7.51 | PidY: -3.80
+Px: (-6.50) | Ix: (-0.00) | Dx: -1.17
+Py: (-2.70) | Iy: (-0.00) | Dy: -1.03
+Setpoints: (80.00, 50.00) | Measurements: (96.29, 63.62) | PidX: -6.96 | PidY: -3.31
+Px: (-6.52) | Ix: (-0.00) | Dx: -0.21
+Py: (-2.72) | Iy: (-0.00) | Dy: -0.38
+Setpoints: (80.00, 50.00) | Measurements: (96.29, 63.89) | PidX: -6.65 | PidY: -3.60
+Px: (-6.52) | Ix: (-0.00) | Dx: 0.00
+Py: (-2.78) | Iy: (-0.00) | Dy: -0.95
+Setpoints: (80.00, 50.00) | Measurements: (96.38, 63.76) | PidX: -6.93 | PidY: -2.70
+Px: (-6.55) | Ix: (-0.00) | Dx: -0.50
+Py: (-2.75) | Iy: (-0.00) | Dy: 0.44
+Setpoints: (80.00, 50.00) | Measurements: (96.34, 63.67) | PidX: -6.51 | PidY: -2.49
+Px: (-6.54) | Ix: (-0.00) | Dx: 0.21
+Py: (-2.73) | Iy: (-0.00) | Dy: 0.34
+Setpoints: (80.00, 50.00) | Measurements: (96.31, 63.71) | PidX: -6.37 | PidY: -2.77
+Px: (-6.52) | Ix: (-0.00) | Dx: 0.21
+Py: (-2.74) | Iy: (-0.00) | Dy: -0.15
+Setpoints: (80.00, 50.00) | Measurements: (96.39, 63.53) | PidX: -6.85 | PidY: -2.30
+Px: (-6.56) | Ix: (-0.00) | Dx: -0.50
+Py: (-2.71) | Iy: (-0.00) | Dy: 0.61
+Setpoints: (80.00, 50.00) | Measurements: (96.53, 63.47) | PidX: -7.24 | PidY: -2.41
+Px: (-6.61) | Ix: (-0.00) | Dx: -0.80
+Py: (-2.69) | Iy: (-0.00) | Dy: 0.23
+Setpoints: (80.00, 50.00) | Measurements: (96.43, 63.46) | PidX: -6.36 | PidY: -2.58
+Px: (-6.57) | Ix: (-0.00) | Dx: 0.59
+Py: (-2.69) | Iy: (-0.00) | Dy: 0.04
+Setpoints: (80.00, 50.00) | Measurements: (96.32, 62.80) | PidX: -6.01 | PidY: -0.94
+Px: (-6.53) | Ix: (-0.00) | Dx: 0.67
+Py: (-2.56) | Iy: (-0.00) | Dy: 2.32
+Setpoints: (80.00, 50.00) | Measurements: (96.18, 62.60) | PidX: -5.78 | PidY: -1.56
+Px: (-6.47) | Ix: (-0.00) | Dx: 0.80
+Py: (-2.52) | Iy: (-0.00) | Dy: 0.70
+Setpoints: (80.00, 50.00) | Measurements: (96.05, 62.49) | PidX: -5.70 | PidY: -1.94
+Px: (-6.42) | Ix: (-0.00) | Dx: 0.75
+Py: (-2.50) | Iy: (-0.00) | Dy: 0.40
+Setpoints: (80.00, 50.00) | Measurements: (95.94, 62.32) | PidX: -5.73 | PidY: -1.88
+Px: (-6.38) | Ix: (-0.00) | Dx: 0.63
+Py: (-2.46) | Iy: (-0.00) | Dy: 0.61
+Setpoints: (80.00, 50.00) | Measurements: (95.70, 61.28) | PidX: -5.09 | PidY: 0.42
+Px: (-6.28) | Ix: (-0.00) | Dx: 1.47
+Py: (-2.26) | Iy: (-0.00) | Dy: 3.67
+Setpoints: (80.00, 50.00) | Measurements: (95.72, 60.96) | PidX: -6.02 | PidY: -0.61
+Px: (-6.29) | Ix: (-0.00) | Dx: -0.13
+Py: (-2.19) | Iy: (-0.00) | Dy: 1.14
+Setpoints: (80.00, 50.00) | Measurements: (95.32, 60.14) | PidX: -4.48 | PidY: 0.42
+Px: (-6.13) | Ix: (-0.00) | Dx: 2.31
+Py: (-2.03) | Iy: (-0.00) | Dy: 2.89
+Setpoints: (80.00, 50.00) | Measurements: (95.25, 59.73) | PidX: -5.32 | PidY: -0.22
+Px: (-6.10) | Ix: (-0.00) | Dx: 0.42
+Py: (-1.95) | Iy: (-0.00) | Dy: 1.45
+Setpoints: (80.00, 50.00) | Measurements: (94.85, 58.83) | PidX: -4.08 | PidY: 0.93
+Px: (-5.94) | Ix: (-0.00) | Dx: 2.39
+Py: (-1.77) | Iy: (-0.00) | Dy: 3.18
+Setpoints: (80.00, 50.00) | Measurements: (94.75, 58.35) | PidX: -4.97 | PidY: 0.29
+Px: (-5.90) | Ix: (-0.00) | Dx: 0.55
+Py: (-1.67) | Iy: (-0.00) | Dy: 1.69
+Setpoints: (80.00, -50.00) | Measurements: (94.63, 57.83) | PidX: -5.09 | PidY: -15.10
+Px: (-5.85) | Ix: (-0.00) | Dx: 0.71
+Py: (-21.57) | Iy: (-0.00) | Dy: 0.00
+Setpoints: (80.00, -50.00) | Measurements: (94.53, 56.89) | PidX: -5.15 | PidY: -17.15
+Px: (-5.81) | Ix: (-0.00) | Dx: 0.63
+Py: (-21.38) | Iy: (-0.00) | Dy: 3.35
+Setpoints: (80.00, -50.00) | Measurements: (94.28, 56.70) | PidX: -4.55 | PidY: -19.63
+Px: (-5.71) | Ix: (-0.00) | Dx: 1.43
+Py: (-21.34) | Iy: (-0.00) | Dy: 0.65
+Setpoints: (80.00, -50.00) | Measurements: (93.71, 56.40) | PidX: -2.86 | PidY: -20.03
+Px: (-5.49) | Ix: (-0.00) | Dx: 3.35
+Py: (-21.28) | Iy: (-0.00) | Dy: 1.07
+Setpoints: (80.00, -50.00) | Measurements: (93.71, 55.76) | PidX: -4.70 | PidY: -19.24
+Px: (-5.49) | Ix: (-0.00) | Dx: -0.00
+Py: (-21.15) | Iy: (-0.00) | Dy: 2.25
+Setpoints: (80.00, -50.00) | Measurements: (93.61, 54.10) | PidX: -4.81 | PidY: -16.26
+Px: (-5.45) | Ix: (-0.00) | Dx: 0.59
+Py: (-20.82) | Iy: (-0.00) | Dy: 5.84
+Setpoints: (80.00, -50.00) | Measurements: (93.12, 52.48) | PidX: -3.09 | PidY: -15.21
+Px: (-5.25) | Ix: (-0.00) | Dx: 2.89
+Py: (-20.50) | Iy: (-0.00) | Dy: 5.73
+Setpoints: (80.00, -50.00) | Measurements: (92.65, 49.37) | PidX: -2.50 | PidY: -10.79
+Px: (-5.06) | Ix: (-0.00) | Dx: 2.81
+Py: (-19.87) | Iy: (-0.00) | Dy: 10.98
+Setpoints: (80.00, -50.00) | Measurements: (92.52, 47.38) | PidX: -3.73 | PidY: -11.96
+Px: (-5.01) | Ix: (-0.00) | Dx: 0.75
+Py: (-19.48) | Iy: (-0.00) | Dy: 7.02
+Setpoints: (80.00, -50.00) | Measurements: (92.36, 43.36) | PidX: -3.93 | PidY: -6.72
+Px: (-4.94) | Ix: (-0.00) | Dx: 0.92
+Py: (-18.67) | Iy: (-0.00) | Dy: 14.20
+Setpoints: (80.00, -50.00) | Measurements: (92.02, 40.90) | PidX: -3.14 | PidY: -8.67
+Px: (-4.81) | Ix: (-0.00) | Dx: 2.01
+Py: (-18.18) | Iy: (-0.00) | Dy: 8.68
+Setpoints: (80.00, -50.00) | Measurements: (92.23, 37.40) | PidX: -5.25 | PidY: -6.18
+Px: (-4.89) | Ix: (-0.00) | Dx: -1.26
+Py: (-17.48) | Iy: (-0.00) | Dy: 12.37
+Setpoints: (80.00, -50.00) | Measurements: (91.53, 33.43) | PidX: -1.93 | PidY: -3.74
+Px: (-4.61) | Ix: (-0.00) | Dx: 4.11
+Py: (-16.69) | Iy: (-0.00) | Dy: 13.99
+Setpoints: (80.00, -50.00) | Measurements: (91.05, 27.29) | PidX: -1.68 | PidY: 3.23
+Px: (-4.42) | Ix: (-0.00) | Dx: 2.85
+Py: (-15.46) | Iy: (-0.00) | Dy: 21.68
+Setpoints: (80.00, -50.00) | Measurements: (90.54, 19.98) | PidX: -1.34 | PidY: 9.22
+Px: (-4.21) | Ix: (-0.00) | Dx: 3.02
+Py: (-14.00) | Iy: (-0.00) | Dy: 25.79
+Setpoints: (80.00, -50.00) | Measurements: (90.24, 12.99) | PidX: -2.04 | PidY: 11.22
+Px: (-4.09) | Ix: (-0.00) | Dx: 1.76
+Py: (-12.60) | Iy: (-0.00) | Dy: 24.67
+Setpoints: (80.00, -50.00) | Measurements: (90.02, 6.53) | PidX: -2.54 | PidY: 11.42
+Px: (-4.01) | Ix: (-0.00) | Dx: 1.26
+Py: (-11.31) | Iy: (-0.00) | Dy: 22.82
+Setpoints: (80.00, -50.00) | Measurements: (90.02, 2.10) | PidX: -3.57 | PidY: 7.06
+Px: (-4.01) | Ix: (-0.00) | Dx: 0.00
+Py: (-10.42) | Iy: (-0.00) | Dy: 15.61
+Setpoints: (80.00, -50.00) | Measurements: (89.83, -2.21) | PidX: -3.03 | PidY: 6.09
+Px: (-3.93) | Ix: (-0.00) | Dx: 1.13
+Py: (-9.56) | Iy: (-0.00) | Dy: 15.23
+Setpoints: (80.00, -50.00) | Measurements: (89.81, -6.57) | PidX: -3.57 | PidY: 6.51
+Px: (-3.92) | Ix: (-0.00) | Dx: 0.13
+Py: (-8.69) | Iy: (-0.00) | Dy: 15.38
+Setpoints: (80.00, -50.00) | Measurements: (89.85, -9.49) | PidX: -4.00 | PidY: 3.49
+Px: (-3.94) | Ix: (-0.00) | Dx: -0.25
+Py: (-8.10) | Iy: (-0.00) | Dy: 10.30
+Setpoints: (80.00, -50.00) | Measurements: (89.87, -13.20) | PidX: -4.05 | PidY: 5.07
+Px: (-3.95) | Ix: (-0.00) | Dx: -0.13
+Py: (-7.36) | Iy: (-0.00) | Dy: 13.10
+Setpoints: (80.00, -50.00) | Measurements: (89.81, -16.27) | PidX: -3.70 | PidY: 4.38
+Px: (-3.92) | Ix: (-0.00) | Dx: 0.38
+Py: (-6.75) | Iy: (-0.00) | Dy: 10.83

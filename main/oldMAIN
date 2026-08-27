@@ -1,0 +1,86 @@
+
+#include "sdkconfig.h"
+
+#include <stdio.h>
+#include <freertos/FreeRTOS.h>
+#include <freertos/task.h>
+#include "esp_log.h"
+#include "AppController.h"
+#include "driver/gpio.h"
+
+static const char* TAG = "APP_MAIN";
+
+static AppController app_controller;
+
+enum Menu {
+    MENU_CONTROL,
+    MENU_TRAJECTORY,
+};
+
+Menu menu = Menu::MENU_CONTROL;
+
+extern "C" void app_main(void) {
+    ESP_LOGI(TAG, "Starting application");
+
+    esp_err_t ret = app_controller.init({});
+    if (ret != ESP_OK) {
+        ESP_LOGE(TAG, "Failed to initialize AppController: %s", esp_err_to_name(ret));
+        return;
+    }
+
+    app_controller.start();
+
+    float holdClickThreshold = 0.5f;          // seconds, hold longer than this = long press
+    float clickDuration = 0.0f;               // how long current press has lasted
+    float timeSinceLastRelease = 0.0f;        // time since the last release
+    float doubleClickWindow = 0.35f;           // seconds, max gap to count as double click
+    bool pressed = false;
+    bool wasPressed = false;
+    bool waitingForSecondClick = false;       // suppress single/long handling if a double just fired
+    bool consumedByDoubleClick = false;
+
+    while (true) {
+        wasPressed = pressed;
+        pressed = gpio_get_level(GPIO_NUM_9) == 0; // active low
+
+        if (!wasPressed && pressed) {
+            // just pressed
+            if (waitingForSecondClick && timeSinceLastRelease < doubleClickWindow) {
+                //ESP_LOGI(TAG, "Double click detected");
+                app_controller.handleDoubleClick();
+                waitingForSecondClick = false;
+                consumedByDoubleClick = true; // this press's eventual release should do nothing
+            }
+        }
+
+        if (pressed) {
+            clickDuration += 0.02f;
+        }
+
+        if (wasPressed && !pressed) {
+            // just released
+            if (consumedByDoubleClick) {
+                consumedByDoubleClick = false; // swallow this release, already handled
+            } else if (clickDuration >= holdClickThreshold) {
+                //ESP_LOGI(TAG, "Long press detected");
+                app_controller.handleLongPress();
+            } else {
+                waitingForSecondClick = true;
+                timeSinceLastRelease = 0.0f;
+            }
+            clickDuration = 0.0f;
+        }
+
+        if (!pressed) {
+            timeSinceLastRelease += 0.02f;
+            if (waitingForSecondClick && timeSinceLastRelease >= doubleClickWindow) {
+                //ESP_LOGI(TAG, "Single click detected");
+                app_controller.handleSingleClick();
+                waitingForSecondClick = false;
+            }
+        }
+
+        vTaskDelay(pdMS_TO_TICKS(20));
+    }
+}
+

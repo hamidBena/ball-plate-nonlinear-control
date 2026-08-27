@@ -1,0 +1,2 @@
+source D:/_github_c++/Embedded/Pid module/build/bootloader/gdbinit/symbols
+source D:/_github_c++/Embedded/Pid module/build/bootloader/gdbinit/connect

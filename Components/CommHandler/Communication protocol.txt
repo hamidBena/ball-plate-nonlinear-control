@@ -1,0 +1,4 @@
+the esp32 will receive data as this form:
+
+Get [key] example: Get Angle1
+Set [key] [value]: Set servo1 55

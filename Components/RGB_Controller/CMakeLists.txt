@@ -1,0 +1,9 @@
+idf_component_register(
+    SRCS
+        "rgbController.cpp"
+    INCLUDE_DIRS
+        "include"
+    REQUIRES
+        esp_driver_rmt
+        freertos
+)

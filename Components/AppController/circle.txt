@@ -1,0 +1,227 @@
+#include "AppController.h"
+#include "PinConfig.h"
+#include "rgbController.h"
+#include "touchPanel.h"
+#include "CommHandler.h"
+#include "IMU.h"
+#include "MyServo.h"
+#include "esp_log.h"
+#include <cmath>
+#define RAD_TO_DEG 57.2957795131f
+
+static const char* TAG = "AppController";
+
+AppController::~AppController() {
+    stop();
+}
+
+esp_err_t AppController::init(const Config& cfg) {
+    ESP_LOGI(TAG, "Initializing AppController");
+
+    // module instances
+    rgb1 = new RGBController();
+    touchPanel = new TouchPanel();
+    commHandler = new CommHandler();
+    servo1 = new MyServo();
+    servo2 = new MyServo();
+    imu = new IMU();
+
+    if (!rgb1 || !touchPanel || !commHandler || !servo1 || !servo2 || !imu) {
+        ESP_LOGE(TAG, "Failed to allocate module memory");
+        return ESP_ERR_NO_MEM;
+    }
+
+    // Initialize RGB Controller
+    esp_err_t ret = rgb1->init(RGBController::defaultConfig);
+    if (ret != ESP_OK) {
+        ESP_LOGE(TAG, "Failed to initialize RGB controller: %s", esp_err_to_name(ret));
+        return ret;
+    }
+    //rgb1->start();
+    //rgb1->Cycle = true;
+    //rgb1->setBrightness(20);
+
+    // Initialize TouchPanel (disabled - GPIO5/GPIO6 conflict with IMU I2C)         // TODO: rewire the touch panel to use new pins and re-enable
+     ret = touchPanel->init({
+         TOUCH_PANEL_X_PLUS, TOUCH_PANEL_X_MINUS, TOUCH_PANEL_X_ADC,  // x axis
+         TOUCH_PANEL_Y_PLUS, TOUCH_PANEL_Y_MINUS, TOUCH_PANEL_Y_ADC,  // y axis
+         TOUCH_PANEL_THRESHOLD
+     });
+     if (ret != ESP_OK) {
+         ESP_LOGE(TAG, "Failed to initialize touchPanel: %s", esp_err_to_name(ret));
+         return ret;
+     }
+    touchPanel->start();
+
+
+    // Initialize Servo 1
+    ret = servo1->init({
+        .pin = SERVO1_PIN,
+    });
+    if (ret != ESP_OK) {
+        ESP_LOGE(TAG, "Failed to initialize servo1: %s", esp_err_to_name(ret));
+        return ret;
+    }
+
+    ret = servo2->init({
+        .pin = SERVO2_PIN,
+    });
+    if (ret != ESP_OK) {
+        ESP_LOGE(TAG, "Failed to initialize servo2: %s", esp_err_to_name(ret));
+        return ret;
+    }
+
+    // Initialize CommHandler   // TODO: enable when finished - causes crash "usb_serial_jtag_read_bytes"
+    /*ret = commHandler->init({});
+    if (ret != ESP_OK) {
+        ESP_LOGE(TAG, "Failed to initialize commHandler: %s", esp_err_to_name(ret));
+        return ret;
+    }*/
+
+    // Initialize IMU (BMI160 over I2C)
+    //ret = imu->init({
+    //    .sda_pin = IMU_I2C_SDA,
+    //    .scl_pin = IMU_I2C_SCL,
+    //});
+    //if (ret != ESP_OK) {
+    //    ESP_LOGE(TAG, "Failed to initialize IMU: %s", esp_err_to_name(ret));
+    //    return ret;
+    //}
+
+    ESP_LOGI(TAG, "AppController initialized");
+    return ESP_OK;
+}
+
+void AppController::start() {
+    if (running) {
+        return;
+    }
+
+    running = true;
+    
+    // Start CommHandler before main loop (disabled - crashes in usb_serial_jtag_read_bytes)
+    // if (commHandler) {
+    //     commHandler->start();
+    // }
+    
+    xTaskCreate(mainLoopEntry, "AppControllerTask", 4096, this, 4, &mainTaskHandle);
+    ESP_LOGI(TAG, "AppController started");
+}
+ 
+void AppController::stop() {
+    running = false;
+
+    if (mainTaskHandle != nullptr) {
+        vTaskDelete(mainTaskHandle);
+        mainTaskHandle = nullptr;
+    }
+
+    // Stop modules
+    // if (commHandler) commHandler->stop();  // Disabled
+    if (touchPanel) touchPanel->stop();
+    if (rgb1) rgb1->stop();
+
+
+    // Clean up queues
+    if (touchPanelQueue) vQueueDelete(touchPanelQueue);
+    if (servo1Queue) vQueueDelete(servo1Queue);
+    if (servo2Queue) vQueueDelete(servo2Queue);
+    if (ledQueue) vQueueDelete(ledQueue);
+
+    // Clean up module memory
+    delete rgb1;
+    delete touchPanel;
+    delete commHandler;
+    delete servo1;
+    delete servo2;
+    delete imu;
+    ESP_LOGI(TAG, "AppController stopped");
+}
+
+void AppController::mainLoopEntry(void* arg) {
+    auto* controller = static_cast<AppController*>(arg);
+    controller->mainLoop();
+}
+
+struct PID {
+    float Kp, Ki, Kd;
+    float setpoint;
+    float lastSetPoint;
+    float integral = 0;
+    float last_error = 0;
+    float derivative = 0;
+    float output = 0;
+
+    float maxOutput = 30.0f;
+    float maxDerivative = 25.0f;    
+    float maxIntegral = 4.0f;
+    float pidAlpha = 1.f;    // low-pass filter
+
+    PID(float p, float i, float d) : Kp(p), Ki(i), Kd(d), setpoint(0) {}
+
+    float update(float measurement) {
+        float error = setpoint - measurement;
+
+        integral += error;
+        integral = std::max(-maxIntegral, std::min(maxIntegral, integral)); // clamp integral
+
+        derivative = (error - last_error);
+        derivative = std::max(-maxDerivative, std::min(maxDerivative, derivative)); // clamp derivative
+
+        last_error = error;
+
+        if(setpoint != lastSetPoint && false){
+            derivative = 0; // prevent derivative kick on setpoint change
+            integral = 0;   // reset integral on setpoint change
+            lastSetPoint = setpoint;
+        }
+
+        output = (Kp * error + Ki * integral + Kd * derivative) * pidAlpha + output * (1 - pidAlpha); // apply low-pass filter
+        output = std::max(-maxOutput, std::min(maxOutput, output)); // clamp output
+        return output;
+    }
+};
+
+void AppController::mainLoop() {
+    ESP_LOGI(TAG, "Main loop started");
+    float x = 0.0f, y = 0.0f;
+
+    PID pidX(0.3, 0.0, 12);
+    PID pidY(0.3, 0.0, 8);
+
+    pidX.setpoint = 0;
+    pidY.setpoint = 0;
+
+    float dt = 0.f;
+    float frequency = 1000 / 50.f;
+    servo2->invert = true;
+
+    while (running) {
+        x = touchPanel->normX;
+        y = touchPanel->normY;
+
+        float pidXOutput = pidX.update(x);
+        float pidYOutput = pidY.update(y);
+
+        if(touchPanel->isTouched()){
+            servo2->setAngle(pidXOutput);
+            servo1->setAngle(pidYOutput);
+        }
+        
+        pidX.setpoint = std::sin(dt) * 70;
+        pidY.setpoint = std::cos(dt) * 50 - 30;
+
+        printf("Setpoints: (%.2f, %.2f) | Measurements: (%.2f, %.2f) | PidX: %.2f | PidY: %.2f\n", pidX.setpoint, pidY.setpoint, x, y, 0.f, 0.f);
+        dt += 0.65/frequency; // assuming 50 Hz update rate
+
+        vTaskDelay(pdMS_TO_TICKS(frequency)); // 50 Hz update rate
+    }
+
+ 
+    ESP_LOGI(TAG, "Main loop stopped");
+}
+
+
+
+
+TOUCH PANEL FILTER 0.5
