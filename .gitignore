@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+golang ext/
+Python extensions/
+build/
