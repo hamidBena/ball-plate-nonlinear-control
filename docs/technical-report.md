@@ -5,6 +5,17 @@
 
 ---
 
+## Table of Contents
+
+1. [Overview](#1-overview)
+2. [Mechanical Design & Kinematics](#2-mechanical-design--kinematics)
+3. [Electronics & Wiring](#3-electronics--wiring)
+4. [Coding Architecture](#4-coding-architecture)
+5. [Filtering Systems](#5-filtering-systems)
+6. [Control Systems](#6-control-systems)
+7. [Results & Comparison](#7-results--comparison)
+8. [Limitations & Future Work](#8-limitations--future-work)
+
 ## 1. Overview
 
 This is a ball-and-plate system built as a test bench to compare the performance of different control methods on a nonlinear, coupled system. Several factors make it genuinely nonlinear: the servo-to-plate linkage kinematics are inherently nonlinear; small imperfections in the build couple the X and Y axes together; the plate has very low friction, making the ball's behavior inherently unstable; and the actuators experience a shifting load as the relatively heavy steel ball moves across the surface.
@@ -155,6 +166,7 @@ The gap widens further on continuous-path tracking. SMC follows curved paths lik
 - Additional control methods, including linearizing the model to properly test linear methods like LQR alongside PID
 - A full mathematical simulation model, to eventually train an AI-based controller (learned/AI control)
 - A redesigned connecting rod between the plate and base to fully eliminate central-joint play
+- Integrating an IMU to automatically detect and correct for steady-state bias caused by bench misalignment, and to compensate for external lateral accelerations, helping the ball hold position while the plate itself is in motion
 
 ---
 

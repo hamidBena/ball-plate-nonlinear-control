@@ -42,3 +42,4 @@ sdkconfig.old
 .cache/
 .vscode/.ropeproject/
 .vscode/*.log
+.vscode/
