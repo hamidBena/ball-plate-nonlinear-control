@@ -24,8 +24,8 @@ This is a personal, independent research project, built purely out of interest i
 
 ## 2. Mechanical Design & Kinematics
 
-![CAD render of the plate assembly](images/CadRender1.png)
-![Photo of the built system](images/RealImg.png)
+![3D model view of the plate assembly](images/CadRender1.png)
+![Photo of the built physical system](images/RealImg.png)
 
 - **Degrees of freedom:** 2 (plate tilt about two axes)
 - **Actuation:** DS3225 servos with ball-joint linkages
@@ -37,8 +37,6 @@ This is a personal, independent research project, built purely out of interest i
 - The plate is not perfectly flat — it's laser-cut acrylic, which warped slightly
 - The servo linkages are not preloaded, resulting in small backlash
 - The central universal joint develops play under high load, due to its internal geometry (partially mitigated by tensioning the joint's core)
-
-Full CAD files: [`/cad`](../cad)
 
 ---
 
@@ -65,7 +63,7 @@ C++ and ESP-IDF were chosen deliberately: three years of a computer science bach
 
 - **Control loop:** runs at 250 Hz, chosen to match the response speed of the DS3225 servos
 - **Data flow:** sensing → filtering → control → actuation, with each stage as its own task, sharing data between them
-- **Architecture:** built with modularity in mind — every component runs as its own FreeRTOS task, each handling one part of the pipeline, all coordinated by a central `AppController`. The controller was designed to support multiple control methods and targeting modes, allowing real-time switching between tracking shapes (circle, triangle, or any arbitrary set of points) and between control algorithms (PID or SMC) without restarting the system.
+- **Architecture:** built with modularity in mind, every component runs as its own FreeRTOS task, each handling one part of the pipeline, all coordinated by a central `AppController`. The controller was designed to support multiple control methods and targeting modes, allowing real-time switching between tracking shapes (circle, triangle, or any arbitrary set of points) and between control algorithms (PID or SMC) without restarting the system.
 
 Source: [`Components/AppController`](../Components/AppController)
 
@@ -75,7 +73,7 @@ Source: [`Components/AppController`](../Components/AppController)
 
 State estimation is handled by two filters working together.
 
-### 4.1 Custom Deviation Filter
+### 5.1 Custom Deviation Filter
 
 The resistive touch panel produces a lot of inconsistent readings — caused by the voltage not settling in time, the ball not exerting enough pressure on the panel, or the ball being briefly airborne. Readings are sampled at 250 Hz in batches of *n* samples per reading. Logging this data showed that an unreliable reading scatters widely — anywhere from -50mm to +50mm of error in physical distance across a single sample set.
 
@@ -86,13 +84,13 @@ By computing the deviation within each sample set and comparing it against a thr
 
 The first plot shows readings with no deviation filter applied — voltages scattered all over the range. The second shows the filtered readings, with red lines marking the points the filter eliminated.
 
-### 4.2 Kalman Filter
+### 5.2 Kalman Filter
 
 The Kalman filter estimates both **position and velocity**. Velocity can't be measured directly from the touch panel, and naively deriving it from consecutive position readings produces large, false jumps — the ball appears to leap from one point to another in a fraction of a second, purely due to small sensing inaccuracies.
 
 Once the deviation filter has removed unreliable readings, the Kalman filter is used to smooth and stabilize the ball's estimated position — and, critically, to eliminate the large jumps that appear when velocity is derived from raw position data.
 
-**Why two filters:** the deviation filter rejects failed readings from the sensor at the source; the Kalman filter then produces a smooth, accurate position (and velocity) estimate from the cleaned data. Running the Kalman filter directly on raw, unfiltered sensor data would let the occasional bad reading severely corrupt the estimate.
+**Why two filters:** the deviation filter rejects failed readings from the sensor at the source level, the Kalman filter then produces a smooth, accurate position (and velocity) estimate from the now reliable data. Running the Kalman filter directly on raw, unfiltered sensor data would let the occasional bad reading severely corrupt the estimate.
 
 ![Kalman filter output](images/touchPanelData/KalmanFilter.png)
 
@@ -100,11 +98,11 @@ Once the deviation filter has removed unreliable readings, the Kalman filter is 
 
 ## 6. Control Systems
 
-### 5.1 PID (Baseline)
+### 6.1 PID (Baseline)
 
 A straightforward PID loop, tuned empirically directly on the nonlinear plant (no linearized model was used). Gains: **P = 0.2, I = 0.0, D = 0.075**.
 
-### 5.2 Hyperbolic Sliding Mode Control (SMC)
+### 6.2 Hyperbolic Sliding Mode Control (SMC)
 
 The initial SMC implementation worked well in terms of tracking, but caused the servos to jitter violently — degrading their lifespan and producing a loud buzzing noise. This was resolved by replacing the standard sign function in the control law with a hyperbolic tangent function, which smooths the switching behavior and eliminates the chattering.
 
@@ -125,7 +123,15 @@ The initial SMC implementation worked well in terms of tracking, but caused the 
 
 The graphs above show tracking error over time alongside the ball's position in 2D space. SMC is consistently more robust: smaller steady-state error, faster approach speed, and better velocity handling than PID. PID, by contrast, overshoots and tends to leave the ball oscillating around the target rather than settling.
 
-The gap widens further on continuous-path tracking. SMC follows curved paths like the circle and figure-8 smoothly, while PID fails to track them at all — which is why no PID graphs exist for those two tests: the ball never followed the path closely enough to produce a meaningful result.
+**Quantified results — holding center:**
+
+| Metric | PID | SMC | Performance Impact |
+| :--- | :--- | :--- | :--- |
+| **Settling time** | ~3s | **~0.72s** | ~76% faster response speed |
+| **Overshoot** | ~5-10mm | **2mm** | Up to 80% reduction in peak overshoot |
+| **Steady-state error** | 1-2.5mm | **0.09-2mm** | Higher precision setpoint holding |
+
+The gap widens further on continuous-path tracking. SMC follows curved paths like the circle and figure-8 smoothly, while PID fails to track them at all — which is why no PID graphs exist for those tests: the ball never followed the path closely enough to produce a meaningful result.
 
 ### Demo Video
 
@@ -139,10 +145,10 @@ The gap widens further on continuous-path tracking. SMC follows curved paths lik
 - Combined servo angle limited to 35° to avoid the linkage striking the body
 - Plate is not perfectly flat (laser-cut acrylic, slight warping)
 - Small backlash from non-preloaded servo linkages
-- Play in the central universal joint under high load, due to internal joint geometry (partially mitigated by tensioning the joint's core; a redesigned connecting rod between plate and base is planned to eliminate this play entirely)
+- Play in the central universal joint under high load, due to internal joint geometry (partially mitigated by tensioning the joint's core; a new connecting rod between plate and base is planned to eliminate this play entirely)
 
 **Sensing:**
-- The resistive touch panel produces false readings when the ball moves quickly across the plate, or when a violent tilt leaves the ball briefly airborne — losing position data at the most critical moments. A replacement is in development: an IR emitter and receiver grid, aimed at achieving accurate position sensing at a much faster sampling rate (1 kHz+).
+- The resistive touch panel produces false readings when the ball moves quickly across the plate, or when a violent tilt leaves the ball briefly airborne, losing position data at the most critical moments. A replacement is in development: an IR emitter and receiver grid, aimed at achieving accurate position sensing at a much faster sampling rate (1 kHz+).
 
 **Planned next:**
 - New communication protocol over HTTPS, paired with a deeper dashboard exposing more telemetry (including response time) and allowing more flexible commands to be sent to the microcontroller
@@ -153,7 +159,5 @@ The gap widens further on continuous-path tracking. SMC follows curved paths lik
 ---
 
 ## Appendix
-
-- CAD files: [`/cad`](../cad)
 - Source code: [`/Components`](../Components)
-- Media (video, plots): [`/media`](../media)
+- Media (video, plots): [`/images`](../docs/images)
